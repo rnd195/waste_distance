@@ -1,5 +1,6 @@
 import json
 from math import sqrt
+from statistics import mean, median
 from pyproj import CRS, Transformer
 
 
@@ -22,12 +23,12 @@ print(jtsk2wgs.transform(*jtsk))
 
 # loadovani dat
 
-with open("stare_mesto_small.geojson", "r", encoding="UTF-8") as file:
+with open("stare_mesto.geojson", "r", encoding="UTF-8") as file:
     adresy = json.load(file)
 
 adresy_info = adresy["features"]
 
-with open("kontejnery_small.geojson", "r", encoding="UTF-8") as file:
+with open("kontejnery.geojson", "r", encoding="UTF-8") as file:
     kont = json.load(file)
 
 kont_info = kont["features"]
@@ -85,7 +86,7 @@ for i in range(len(kont_info)):
         kont_pristup = kont_info[i]["properties"]["PRISTUP"]
     except KeyError:
         continue
-    
+
     if kont_pristup == "volně":
         slovnik_kont[kont_ulice_cp] = kont_souradnice
 
@@ -95,7 +96,7 @@ if len(slovnik_kont) == 0:
     print("V souboru s kontejnery neni zadny volny kontejner."
           "Program se ukonci")
     exit(0)
-    
+
 
 # vybudovani slovniku adres adresa : souradnice x y
 
@@ -110,10 +111,75 @@ for j in range(len(adresy_info)):
         adresa_delka = adresy_info[j]["geometry"]["coordinates"][0]
     except KeyError:
         continue
-    
+
     adresa_jtsk = wgs2jtsk.transform(adresa_sirka, adresa_delka)
     # ulice mezera cislo popisne
     adresa_ulice_cp = adresa_ulice + " " + adresa_cp
-    
+
     # budovani slovniku
     slovnik_adresy[adresa_ulice_cp] = adresa_jtsk
+
+
+# hledani nejmensi vzdalenosti pro danou adresu
+
+slovnik_adresy_minkont = {}
+
+for (klic_adresy, hodnota_adresy) in slovnik_adresy.items():
+    x_1 = hodnota_adresy[0]
+    y_1 = hodnota_adresy[1]
+
+    docasny_seznam = []
+
+    for hodnota_kont in slovnik_kont.values():
+        x_2 = hodnota_kont[0]
+        y_2 = hodnota_kont[1]
+
+        # pythagoras
+        odvesna1 = abs(x_1 - x_2)
+        odvesna2 = abs(y_1 - y_2)
+        prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
+
+        docasny_seznam.append(prepona)
+
+    min_vzdalenost = min(docasny_seznam)
+
+    slovnik_adresy_minkont[klic_adresy] = min_vzdalenost
+
+
+# TODO def prumer
+mean(slovnik_adresy_minkont.values())
+prumer_m = sum(slovnik_adresy_minkont.values()) / len(slovnik_adresy_minkont)
+
+# TODO premistit nahoru
+
+
+def median_slovnik(slovnik):
+    seznam = list(slovnik.values())
+    seznam.sort()
+    n = len(seznam)
+    pozice = (n - 1) // 2
+
+    if n % 2:
+        return seznam[pozice]
+
+    return (seznam[pozice] + seznam[pozice + 1]) / 2
+
+
+median_m = median_slovnik(slovnik_adresy_minkont)
+median_kontrola = median(slovnik_adresy_minkont.values())
+
+max_m = max(slovnik_adresy_minkont.values())
+
+for (klic, hodnota) in slovnik_adresy_minkont.items():
+    if hodnota == max_m:
+        max_adresa = klic
+
+print(f"Nacteno {len(slovnik_adresy)} adresnich bodu.")
+print(f"Nacteno {len(slovnik_kont)} kontejneru na trideny odpad.")
+
+print("\n"
+      "Prumerna vzdalenost adresniho bodu ke kontejneru je "
+      f"{prumer_m:.0f} metru.")
+print(f"Median je {median_m:.0f} metru.")
+print(f"Nejdelsi vzdalenost ke kontejnerum je z adresy {max_adresa} "
+      f"a to {max_m:.0f} metru.")

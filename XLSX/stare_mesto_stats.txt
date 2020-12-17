@@ -1,0 +1,6 @@
+Nacteno 1633 adresnich bodu.
+Nacteno 3441 kontejneru na trideny odpad.
+
+Prumerna vzdalenost adresniho bodu ke kontejneru je 136 metru.
+Median je 129 metru.
+Nejdelsi vzdalenost ke kontejnerum je z adresy Na příkopě 1096/19 a to 323 metru.
