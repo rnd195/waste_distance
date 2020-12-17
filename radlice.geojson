@@ -1,0 +1,5513 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-12-17T15:37:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296622089",
+        "addr:conscriptionnumber": "301",
+        "addr:housenumber": "301/5",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3792467,
+          50.0585322
+        ]
+      },
+      "id": "node/296622089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296625789",
+        "addr:conscriptionnumber": "283",
+        "addr:housenumber": "283/43",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "43",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3802204,
+          50.058528
+        ]
+      },
+      "id": "node/296625789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296627838",
+        "addr:conscriptionnumber": "126",
+        "addr:housenumber": "126/36",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "36",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3812512,
+          50.060426
+        ]
+      },
+      "id": "node/296627838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296629833",
+        "addr:conscriptionnumber": "102",
+        "addr:housenumber": "102/21",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "21",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3942816,
+          50.0590972
+        ]
+      },
+      "id": "node/296629833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296631544",
+        "addr:conscriptionnumber": "228",
+        "addr:housenumber": "228/3",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3809013,
+          50.0595598
+        ]
+      },
+      "id": "node/296631544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296633601",
+        "addr:conscriptionnumber": "136",
+        "addr:housenumber": "136/15",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3828417,
+          50.0607671
+        ]
+      },
+      "id": "node/296633601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296633745",
+        "addr:conscriptionnumber": "278",
+        "addr:housenumber": "278/7",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3844165,
+          50.059473
+        ]
+      },
+      "id": "node/296633745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296636858",
+        "addr:conscriptionnumber": "237",
+        "addr:housenumber": "237/39",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "39",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798471,
+          50.0590848
+        ]
+      },
+      "id": "node/296636858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296637187",
+        "addr:conscriptionnumber": "164",
+        "addr:housenumber": "164/5",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043403"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3832561,
+          50.0598872
+        ]
+      },
+      "id": "node/296637187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296637835",
+        "addr:conscriptionnumber": "211",
+        "addr:housenumber": "211/15",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3834061,
+          50.0593196
+        ]
+      },
+      "id": "node/296637835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296638283",
+        "addr:conscriptionnumber": "186",
+        "addr:housenumber": "186/34",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "34",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3827441,
+          50.0587253
+        ]
+      },
+      "id": "node/296638283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296639343",
+        "addr:conscriptionnumber": "251",
+        "addr:housenumber": "251/58",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "58",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044329"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3791853,
+          50.0593436
+        ]
+      },
+      "id": "node/296639343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296651351",
+        "addr:conscriptionnumber": "298",
+        "addr:housenumber": "298/105",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "105",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22754661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3906803,
+          50.0582054
+        ]
+      },
+      "id": "node/296651351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296651512",
+        "addr:conscriptionnumber": "131",
+        "addr:housenumber": "131/7",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.382007,
+          50.0603207
+        ]
+      },
+      "id": "node/296651512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296651781",
+        "addr:conscriptionnumber": "294",
+        "addr:housenumber": "294/1",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4001594,
+          50.0530479
+        ]
+      },
+      "id": "node/296651781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296652316",
+        "addr:conscriptionnumber": "121",
+        "addr:housenumber": "121/46",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "46",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3820115,
+          50.0609565
+        ]
+      },
+      "id": "node/296652316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296653815",
+        "addr:conscriptionnumber": "192",
+        "addr:housenumber": "192/11",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3838908,
+          50.0594263
+        ]
+      },
+      "id": "node/296653815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296655801",
+        "addr:conscriptionnumber": "49",
+        "addr:housenumber": "49/3",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042865"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3953149,
+          50.0599332
+        ]
+      },
+      "id": "node/296655801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296657803",
+        "addr:conscriptionnumber": "218",
+        "addr:housenumber": "218/18",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "18",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043942"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.380803,
+          50.058244
+        ]
+      },
+      "id": "node/296657803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296657857",
+        "addr:conscriptionnumber": "155",
+        "addr:housenumber": "155/16",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "16",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.382327,
+          50.0592237
+        ]
+      },
+      "id": "node/296657857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296658720",
+        "addr:conscriptionnumber": "175",
+        "addr:housenumber": "175/6",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043471"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3834881,
+          50.0594631
+        ]
+      },
+      "id": "node/296658720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296661271",
+        "addr:conscriptionnumber": "270",
+        "addr:housenumber": "270/22",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "22",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3836388,
+          50.0614552
+        ]
+      },
+      "id": "node/296661271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296662390",
+        "addr:conscriptionnumber": "256",
+        "addr:housenumber": "256/9",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.381743,
+          50.059317
+        ]
+      },
+      "id": "node/296662390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296662468",
+        "addr:conscriptionnumber": "208",
+        "addr:housenumber": "208/14",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "14",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043802"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3802072,
+          50.058064
+        ]
+      },
+      "id": "node/296662468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296666819",
+        "addr:conscriptionnumber": "206",
+        "addr:housenumber": "206/11",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.383495,
+          50.0604167
+        ]
+      },
+      "id": "node/296666819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296668007",
+        "addr:conscriptionnumber": "232",
+        "addr:housenumber": "232/10",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3793781,
+          50.0581173
+        ]
+      },
+      "id": "node/296668007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296668290",
+        "addr:conscriptionnumber": "243",
+        "addr:housenumber": "243/32",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "32",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044248"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.38309,
+          50.058756
+        ]
+      },
+      "id": "node/296668290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296670784",
+        "addr:conscriptionnumber": "267",
+        "addr:housenumber": "267/26",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "26",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3840746,
+          50.058898
+        ]
+      },
+      "id": "node/296670784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296675463",
+        "addr:conscriptionnumber": "125",
+        "addr:housenumber": "125/38",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "38",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3813604,
+          50.0605083
+        ]
+      },
+      "id": "node/296675463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296677423",
+        "addr:conscriptionnumber": "319",
+        "addr:housenumber": "319/19",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "19",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22720472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3804958,
+          50.057514
+        ]
+      },
+      "id": "node/296677423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296677536",
+        "addr:conscriptionnumber": "257",
+        "addr:housenumber": "257/1",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3837231,
+          50.0600104
+        ]
+      },
+      "id": "node/296677536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296678041",
+        "addr:conscriptionnumber": "284",
+        "addr:housenumber": "284/24",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "24",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3806152,
+          50.0591132
+        ]
+      },
+      "id": "node/296678041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296679458",
+        "addr:conscriptionnumber": "314",
+        "addr:housenumber": "314/5",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.398476,
+          50.0539967
+        ]
+      },
+      "id": "node/296679458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296681229",
+        "addr:conscriptionnumber": "145",
+        "addr:housenumber": "145/14",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "14",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043268"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3830006,
+          50.0606178
+        ]
+      },
+      "id": "node/296681229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296683059",
+        "addr:conscriptionnumber": "198",
+        "addr:housenumber": "198/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3827997,
+          50.0593202
+        ]
+      },
+      "id": "node/296683059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296685989",
+        "addr:conscriptionnumber": "248",
+        "addr:housenumber": "248/9",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044299"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3840272,
+          50.0594475
+        ]
+      },
+      "id": "node/296685989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296689347",
+        "addr:conscriptionnumber": "159",
+        "addr:housenumber": "159/10",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.381774,
+          50.059238
+        ]
+      },
+      "id": "node/296689347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296689664",
+        "addr:conscriptionnumber": "225",
+        "addr:housenumber": "225/49",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "49",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3795176,
+          50.0588467
+        ]
+      },
+      "id": "node/296689664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296690093",
+        "addr:conscriptionnumber": "212",
+        "addr:housenumber": "212/16",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "16",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3800738,
+          50.0576346
+        ]
+      },
+      "id": "node/296690093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296694137",
+        "addr:conscriptionnumber": "134",
+        "addr:housenumber": "134/13",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3824964,
+          50.0605367
+        ]
+      },
+      "id": "node/296694137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296694796",
+        "addr:conscriptionnumber": "120",
+        "addr:housenumber": "120/1",
+        "addr:postcode": "15800",
+        "addr:street": "Puchmajerova",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3761183,
+          50.0549136
+        ]
+      },
+      "id": "node/296694796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296695767",
+        "addr:conscriptionnumber": "261",
+        "addr:housenumber": "261/47",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "47",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3797821,
+          50.0596508
+        ]
+      },
+      "id": "node/296695767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296697041",
+        "addr:conscriptionnumber": "309",
+        "addr:housenumber": "309/15",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3969972,
+          50.0545824
+        ]
+      },
+      "id": "node/296697041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296697408",
+        "addr:conscriptionnumber": "291",
+        "addr:housenumber": "291/7",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044752"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3997793,
+          50.0537039
+        ]
+      },
+      "id": "node/296697408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296697622",
+        "addr:conscriptionnumber": "92",
+        "addr:housenumber": "92/15",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3946552,
+          50.0593936
+        ]
+      },
+      "id": "node/296697622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296700108",
+        "addr:conscriptionnumber": "306",
+        "addr:housenumber": "306/23",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "23",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3983325,
+          50.0548643
+        ]
+      },
+      "id": "node/296700108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296700313",
+        "addr:conscriptionnumber": "193",
+        "addr:housenumber": "193/18",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "18",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3826799,
+          50.0610613
+        ]
+      },
+      "id": "node/296700313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296702733",
+        "addr:conscriptionnumber": "152",
+        "addr:housenumber": "152/4",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3833643,
+          50.0601056
+        ]
+      },
+      "id": "node/296702733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296703287",
+        "addr:conscriptionnumber": "190",
+        "addr:housenumber": "190/13",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3822448,
+          50.0596067
+        ]
+      },
+      "id": "node/296703287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296704122",
+        "addr:conscriptionnumber": "207",
+        "addr:housenumber": "207/29",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "29",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3811788,
+          50.0588583
+        ]
+      },
+      "id": "node/296704122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296704725",
+        "addr:conscriptionnumber": "233",
+        "addr:housenumber": "233/2",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "2",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3835976,
+          50.0601354
+        ]
+      },
+      "id": "node/296704725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296704978",
+        "addr:conscriptionnumber": "240",
+        "addr:housenumber": "240/9",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3797363,
+          50.0582217
+        ]
+      },
+      "id": "node/296704978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296705883",
+        "addr:conscriptionnumber": "216",
+        "addr:housenumber": "216/8",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3792327,
+          50.0576777
+        ]
+      },
+      "id": "node/296705883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296709098",
+        "addr:conscriptionnumber": "127",
+        "addr:housenumber": "127/6",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3810619,
+          50.0601913
+        ]
+      },
+      "id": "node/296709098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296710215",
+        "addr:conscriptionnumber": "104",
+        "addr:housenumber": "104/25",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "25",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3940412,
+          50.0589034
+        ]
+      },
+      "id": "node/296710215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296711172",
+        "addr:conscriptionnumber": "30",
+        "addr:housenumber": "30/59",
+        "addr:postcode": "15000",
+        "addr:street": "Peroutkova",
+        "addr:streetnumber": "59",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042814"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3835904,
+          50.0618775
+        ]
+      },
+      "id": "node/296711172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296711261",
+        "addr:conscriptionnumber": "187",
+        "addr:housenumber": "187/5",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043586"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3839613,
+          50.0596232
+        ]
+      },
+      "id": "node/296711261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296711981",
+        "addr:conscriptionnumber": "199",
+        "addr:housenumber": "199/46",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "46",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3807694,
+          50.0587947
+        ]
+      },
+      "id": "node/296711981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296713610",
+        "addr:conscriptionnumber": "311",
+        "addr:housenumber": "311/11",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3974976,
+          50.0544181
+        ]
+      },
+      "id": "node/296713610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296713883",
+        "addr:conscriptionnumber": "238",
+        "addr:housenumber": "238/37",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "37",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044175"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3799278,
+          50.0590375
+        ]
+      },
+      "id": "node/296713883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296714184",
+        "addr:conscriptionnumber": "214",
+        "addr:housenumber": "214/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3797956,
+          50.0579456
+        ]
+      },
+      "id": "node/296714184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296715079",
+        "addr:conscriptionnumber": "253",
+        "addr:housenumber": "253/20",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "20",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3823822,
+          50.0611347
+        ]
+      },
+      "id": "node/296715079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296715601",
+        "addr:conscriptionnumber": "293",
+        "addr:housenumber": "293/3",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4000025,
+          50.0531883
+        ]
+      },
+      "id": "node/296715601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296715838",
+        "addr:conscriptionnumber": "169",
+        "addr:housenumber": "169/2",
+        "addr:postcode": "15000",
+        "addr:street": "Výmolova",
+        "addr:streetnumber": "2",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043420"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3929699,
+          50.0566662
+        ]
+      },
+      "id": "node/296715838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296718248",
+        "addr:conscriptionnumber": "280",
+        "addr:housenumber": "280/3",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3848043,
+          50.059571
+        ]
+      },
+      "id": "node/296718248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296719412",
+        "addr:conscriptionnumber": "263",
+        "addr:housenumber": "263/61",
+        "addr:postcode": "15000",
+        "addr:street": "Peroutkova",
+        "addr:streetnumber": "61",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044477"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.383062,
+          50.0615067
+        ]
+      },
+      "id": "node/296719412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296720054",
+        "addr:conscriptionnumber": "133",
+        "addr:housenumber": "133/11",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3823676,
+          50.0604799
+        ]
+      },
+      "id": "node/296720054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296720471",
+        "addr:conscriptionnumber": "122",
+        "addr:housenumber": "122/44",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "44",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3818885,
+          50.0608729
+        ]
+      },
+      "id": "node/296720471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296721301",
+        "addr:conscriptionnumber": "194",
+        "addr:housenumber": "194/32",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "32",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043659"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3805248,
+          50.0599348
+        ]
+      },
+      "id": "node/296721301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296722475",
+        "addr:conscriptionnumber": "62",
+        "addr:housenumber": "62/6",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3790063,
+          50.0583383
+        ]
+      },
+      "id": "node/296722475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296724045",
+        "addr:conscriptionnumber": "177",
+        "addr:housenumber": "177/9",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043497"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3827891,
+          50.059764
+        ]
+      },
+      "id": "node/296724045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296724981",
+        "addr:conscriptionnumber": "219",
+        "addr:housenumber": "219/14",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "14",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3799898,
+          50.0577632
+        ]
+      },
+      "id": "node/296724981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296725452",
+        "addr:conscriptionnumber": "209",
+        "addr:housenumber": "209/19",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "19",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3831179,
+          50.0609913
+        ]
+      },
+      "id": "node/296725452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296726151",
+        "addr:conscriptionnumber": "316",
+        "addr:housenumber": "316/1",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3991548,
+          50.0533944
+        ]
+      },
+      "id": "node/296726151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296726360",
+        "addr:conscriptionnumber": "303",
+        "addr:housenumber": "303/51",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "51",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044868"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3794054,
+          50.0589094
+        ]
+      },
+      "id": "node/296726360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296727145",
+        "addr:conscriptionnumber": "172",
+        "addr:housenumber": "172/7",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22689290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3795125,
+          50.0584106
+        ]
+      },
+      "id": "node/296727145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296727845",
+        "addr:conscriptionnumber": "235",
+        "addr:housenumber": "235/56",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "56",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3795809,
+          50.0591428
+        ]
+      },
+      "id": "node/296727845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296728119",
+        "addr:conscriptionnumber": "233",
+        "addr:housenumber": "233/9",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3836177,
+          50.0601735
+        ]
+      },
+      "id": "node/296728119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296728562",
+        "addr:conscriptionnumber": "245",
+        "addr:housenumber": "245/13",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3802865,
+          50.0578259
+        ]
+      },
+      "id": "node/296728562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296731293",
+        "addr:conscriptionnumber": "272",
+        "addr:housenumber": "272/8",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3844249,
+          50.060091
+        ]
+      },
+      "id": "node/296731293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296731875",
+        "addr:conscriptionnumber": "257",
+        "addr:housenumber": "257/7",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3837585,
+          50.0599773
+        ]
+      },
+      "id": "node/296731875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296732425",
+        "addr:conscriptionnumber": "127",
+        "addr:housenumber": "127/34",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "34",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3810781,
+          50.0602472
+        ]
+      },
+      "id": "node/296732425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296733450",
+        "addr:conscriptionnumber": "40",
+        "addr:housenumber": "40/109",
+        "addr:postcode": "15800",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "109",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042831"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3777982,
+          50.0553626
+        ]
+      },
+      "id": "node/296733450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296733584",
+        "addr:conscriptionnumber": "109",
+        "addr:housenumber": "109/4",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U slévárny",
+        "addr:streetnumber": "4",
+        "ref:ruian:addr": "22042971"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3837162,
+          50.0578107
+        ]
+      },
+      "id": "node/296733584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296735982",
+        "addr:conscriptionnumber": "146",
+        "addr:housenumber": "146/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3828738,
+          50.0605521
+        ]
+      },
+      "id": "node/296735982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296736482",
+        "addr:conscriptionnumber": "167",
+        "addr:housenumber": "167/4",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.383771,
+          50.0595245
+        ]
+      },
+      "id": "node/296736482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296738148",
+        "addr:conscriptionnumber": "300",
+        "addr:housenumber": "300/22",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "22",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3796771,
+          50.0571182
+        ]
+      },
+      "id": "node/296738148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296738868",
+        "addr:conscriptionnumber": "200",
+        "addr:housenumber": "200/17",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "17",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3829887,
+          50.0592281
+        ]
+      },
+      "id": "node/296738868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296739598",
+        "addr:conscriptionnumber": "277",
+        "addr:housenumber": "277/1",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3842513,
+          50.0598486
+        ]
+      },
+      "id": "node/296739598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296739865",
+        "addr:conscriptionnumber": "250",
+        "addr:housenumber": "250/60",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "60",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3791543,
+          50.0594225
+        ]
+      },
+      "id": "node/296739865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296740147",
+        "addr:conscriptionnumber": "320",
+        "addr:housenumber": "320/55",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "55",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22764917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3788849,
+          50.0590355
+        ]
+      },
+      "id": "node/296740147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296741010",
+        "addr:conscriptionnumber": "308",
+        "addr:housenumber": "308/27",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "27",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044914"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3978774,
+          50.0550145
+        ]
+      },
+      "id": "node/296741010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296741177",
+        "addr:conscriptionnumber": "227",
+        "addr:housenumber": "227/107",
+        "addr:postcode": "15800",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "107",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.382191,
+          50.0562435
+        ]
+      },
+      "id": "node/296741177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296741527",
+        "addr:conscriptionnumber": "185",
+        "addr:housenumber": "185/38",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "38",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043551"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3821869,
+          50.0586939
+        ]
+      },
+      "id": "node/296741527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296741886",
+        "addr:conscriptionnumber": "317",
+        "addr:housenumber": "317/8",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22703462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.381418,
+          50.0597147
+        ]
+      },
+      "id": "node/296741886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296743185",
+        "addr:conscriptionnumber": "264",
+        "addr:housenumber": "264/30",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "30",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3803045,
+          50.0595158
+        ]
+      },
+      "id": "node/296743185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296743833",
+        "addr:conscriptionnumber": "282",
+        "addr:housenumber": "282/9",
+        "addr:postcode": "15000",
+        "addr:street": "U starého židovského hřbitova",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22754679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3993043,
+          50.0580275
+        ]
+      },
+      "id": "node/296743833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296743916",
+        "addr:conscriptionnumber": "238",
+        "addr:housenumber": "238/50",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "50",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798543,
+          50.0589856
+        ]
+      },
+      "id": "node/296743916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296748108",
+        "addr:conscriptionnumber": "194",
+        "addr:housenumber": "194/5",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3806416,
+          50.0599815
+        ]
+      },
+      "id": "node/296748108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296748514",
+        "addr:conscriptionnumber": "221",
+        "addr:housenumber": "221/36",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "36",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3825504,
+          50.058708
+        ]
+      },
+      "id": "node/296748514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296749488",
+        "addr:conscriptionnumber": "156",
+        "addr:housenumber": "156/7",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043357"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3830424,
+          50.0598319
+        ]
+      },
+      "id": "node/296749488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296750693",
+        "addr:conscriptionnumber": "183",
+        "addr:housenumber": "183/8",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3829841,
+          50.0599719
+        ]
+      },
+      "id": "node/296750693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296751134",
+        "addr:conscriptionnumber": "269",
+        "addr:housenumber": "269/22",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "22",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3848975,
+          50.059071
+        ]
+      },
+      "id": "node/296751134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296751803",
+        "addr:conscriptionnumber": "234",
+        "addr:housenumber": "234/18",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "18",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3834886,
+          50.0611695
+        ]
+      },
+      "id": "node/296751803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296752155",
+        "addr:conscriptionnumber": "258",
+        "addr:housenumber": "258/33",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "33",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3804102,
+          50.0588263
+        ]
+      },
+      "id": "node/296752155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296752365",
+        "addr:conscriptionnumber": "242",
+        "addr:housenumber": "242/18",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "18",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3801054,
+          50.057356
+        ]
+      },
+      "id": "node/296752365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296752709",
+        "addr:conscriptionnumber": "217",
+        "addr:housenumber": "217/42",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "42",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3815161,
+          50.0587976
+        ]
+      },
+      "id": "node/296752709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296752799",
+        "addr:conscriptionnumber": "286",
+        "addr:housenumber": "286/17",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "17",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3991529,
+          50.0544561
+        ]
+      },
+      "id": "node/296752799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296757428",
+        "addr:conscriptionnumber": "215",
+        "addr:housenumber": "215/6",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3793363,
+          50.0575236
+        ]
+      },
+      "id": "node/296757428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296757869",
+        "addr:conscriptionnumber": "189",
+        "addr:housenumber": "189/23",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "23",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043608"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.382057,
+          50.0590363
+        ]
+      },
+      "id": "node/296757869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296758279",
+        "addr:conscriptionnumber": "201",
+        "addr:housenumber": "201/13",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3835406,
+          50.0593498
+        ]
+      },
+      "id": "node/296758279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296759094",
+        "addr:conscriptionnumber": "282",
+        "addr:housenumber": "282/3",
+        "addr:postcode": "15000",
+        "addr:street": "Kroupova",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3994441,
+          50.0579673
+        ]
+      },
+      "id": "node/296759094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296761421",
+        "addr:conscriptionnumber": "145",
+        "addr:housenumber": "145/13",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3831032,
+          50.0605997
+        ]
+      },
+      "id": "node/296761421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296761861",
+        "addr:conscriptionnumber": "171",
+        "addr:housenumber": "171/6",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3831564,
+          50.0600236
+        ]
+      },
+      "id": "node/296761861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296761877",
+        "addr:conscriptionnumber": "229",
+        "addr:housenumber": "229/8",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3792521,
+          50.0581787
+        ]
+      },
+      "id": "node/296761877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296764449",
+        "addr:conscriptionnumber": "240",
+        "addr:housenumber": "240/5",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798747,
+          50.0582341
+        ]
+      },
+      "id": "node/296764449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296764833",
+        "addr:conscriptionnumber": "265",
+        "addr:housenumber": "265/3",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3835233,
+          50.0599563
+        ]
+      },
+      "id": "node/296764833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296765319",
+        "addr:conscriptionnumber": "313",
+        "addr:housenumber": "313/7",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3984312,
+          50.0543376
+        ]
+      },
+      "id": "node/296765319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296765954",
+        "addr:conscriptionnumber": "295",
+        "addr:housenumber": "295/53",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "53",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3790628,
+          50.0590604
+        ]
+      },
+      "id": "node/296765954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296767233",
+        "addr:conscriptionnumber": "136",
+        "addr:housenumber": "136/17",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "17",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3828394,
+          50.0607124
+        ]
+      },
+      "id": "node/296767233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296767597",
+        "addr:conscriptionnumber": "121",
+        "addr:housenumber": "121/19",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "19",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3820926,
+          50.0609728
+        ]
+      },
+      "id": "node/296767597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296768340",
+        "addr:conscriptionnumber": "159",
+        "addr:housenumber": "159/18",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "18",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3818647,
+          50.0592098
+        ]
+      },
+      "id": "node/296768340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296768623",
+        "addr:conscriptionnumber": "96",
+        "addr:housenumber": "96/19",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "19",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3944028,
+          50.0591896
+        ]
+      },
+      "id": "node/296768623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296769604",
+        "addr:conscriptionnumber": "246",
+        "addr:housenumber": "246/15",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044272"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3803648,
+          50.057724
+        ]
+      },
+      "id": "node/296769604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296769838",
+        "addr:conscriptionnumber": "182",
+        "addr:housenumber": "182/28",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "28",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.380294,
+          50.0594332
+        ]
+      },
+      "id": "node/296769838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296770044",
+        "addr:conscriptionnumber": "274",
+        "addr:housenumber": "274/4",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3845776,
+          50.0599049
+        ]
+      },
+      "id": "node/296770044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296770674",
+        "addr:conscriptionnumber": "223",
+        "addr:housenumber": "223/16",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "16",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043977"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3804863,
+          50.0581432
+        ]
+      },
+      "id": "node/296770674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296771140",
+        "addr:conscriptionnumber": "258",
+        "addr:housenumber": "258/48",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "48",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3803821,
+          50.0587602
+        ]
+      },
+      "id": "node/296771140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296771186",
+        "addr:conscriptionnumber": "210",
+        "addr:housenumber": "210/25",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "25",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043845"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3818948,
+          50.0590037
+        ]
+      },
+      "id": "node/296771186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296780340",
+        "addr:conscriptionnumber": "38",
+        "addr:housenumber": "38/1",
+        "addr:postcode": "15000",
+        "addr:street": "Výmolova",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.393136,
+          50.0561545
+        ]
+      },
+      "id": "node/296780340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296781145",
+        "addr:conscriptionnumber": "148",
+        "addr:housenumber": "148/8",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3824912,
+          50.0603638
+        ]
+      },
+      "id": "node/296781145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296781402",
+        "addr:conscriptionnumber": "170",
+        "addr:housenumber": "170/8",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "8",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043438"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3833121,
+          50.0594293
+        ]
+      },
+      "id": "node/296781402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296783314",
+        "addr:conscriptionnumber": "187",
+        "addr:housenumber": "187/2",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "2",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3839275,
+          50.0595838
+        ]
+      },
+      "id": "node/296783314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296783592",
+        "addr:conscriptionnumber": "202",
+        "addr:housenumber": "202/1",
+        "addr:postcode": "15000",
+        "addr:street": "Kroupova",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3993214,
+          50.0576841
+        ]
+      },
+      "id": "node/296783592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296783642",
+        "addr:conscriptionnumber": "253",
+        "addr:housenumber": "253/67",
+        "addr:postcode": "15000",
+        "addr:street": "Peroutkova",
+        "addr:streetnumber": "67",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044337"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3823688,
+          50.061197
+        ]
+      },
+      "id": "node/296783642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296784687",
+        "addr:conscriptionnumber": "230",
+        "addr:housenumber": "230/21",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "21",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.382421,
+          50.059114
+        ]
+      },
+      "id": "node/296784687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296787895",
+        "addr:conscriptionnumber": "318",
+        "addr:housenumber": "318/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na Brabenci",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22713026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3977443,
+          50.0578073
+        ]
+      },
+      "id": "node/296787895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296787902",
+        "addr:conscriptionnumber": "266",
+        "addr:housenumber": "266/28",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "28",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3837922,
+          50.0589001
+        ]
+      },
+      "id": "node/296787902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296788722",
+        "addr:conscriptionnumber": "213",
+        "addr:housenumber": "213/4",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3793831,
+          50.057437
+        ]
+      },
+      "id": "node/296788722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296789951",
+        "addr:conscriptionnumber": "279",
+        "addr:housenumber": "279/5",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3846045,
+          50.059517
+        ]
+      },
+      "id": "node/296789951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296790587",
+        "addr:conscriptionnumber": "135",
+        "addr:housenumber": "135/15",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3827263,
+          50.0606479
+        ]
+      },
+      "id": "node/296790587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296791855",
+        "addr:conscriptionnumber": "296",
+        "addr:housenumber": "296/20",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "20",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044809"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3836464,
+          50.0614195
+        ]
+      },
+      "id": "node/296791855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296792195",
+        "addr:conscriptionnumber": "310",
+        "addr:housenumber": "310/13",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044931"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3974466,
+          50.0547221
+        ]
+      },
+      "id": "node/296792195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296792669",
+        "addr:conscriptionnumber": "196",
+        "addr:housenumber": "196/15",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3820826,
+          50.0595741
+        ]
+      },
+      "id": "node/296792669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296793366",
+        "addr:conscriptionnumber": "224",
+        "addr:housenumber": "224/10",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3830153,
+          50.0593666
+        ]
+      },
+      "id": "node/296793366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296794060",
+        "addr:conscriptionnumber": "158",
+        "addr:housenumber": "158/10",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3826497,
+          50.0598877
+        ]
+      },
+      "id": "node/296794060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296795178",
+        "addr:conscriptionnumber": "184",
+        "addr:housenumber": "184/1",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3811825,
+          50.0591037
+        ]
+      },
+      "id": "node/296795178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296795848",
+        "addr:conscriptionnumber": "235",
+        "addr:housenumber": "235/43",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "43",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044116"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3796544,
+          50.0591947
+        ]
+      },
+      "id": "node/296795848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296796426",
+        "addr:conscriptionnumber": "244",
+        "addr:housenumber": "244/30",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "30",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3832145,
+          50.0587671
+        ]
+      },
+      "id": "node/296796426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296796812",
+        "addr:conscriptionnumber": "208",
+        "addr:housenumber": "208/11",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3801534,
+          50.0579865
+        ]
+      },
+      "id": "node/296796812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296798080",
+        "addr:conscriptionnumber": "247",
+        "addr:housenumber": "247/20",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "20",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044281"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3810383,
+          50.0580017
+        ]
+      },
+      "id": "node/296798080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296799922",
+        "addr:conscriptionnumber": "130",
+        "addr:housenumber": "130/5",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3817613,
+          50.0602172
+        ]
+      },
+      "id": "node/296799922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296800242",
+        "addr:conscriptionnumber": "111",
+        "addr:housenumber": "111/9",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3950029,
+          50.0596786
+        ]
+      },
+      "id": "node/296800242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296801733",
+        "addr:conscriptionnumber": "128",
+        "addr:housenumber": "128/1",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3812904,
+          50.0601118
+        ]
+      },
+      "id": "node/296801733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296801826",
+        "addr:conscriptionnumber": "271",
+        "addr:housenumber": "271/10",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044558"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3843428,
+          50.0602108
+        ]
+      },
+      "id": "node/296801826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296802047",
+        "addr:conscriptionnumber": "46",
+        "addr:housenumber": "46/5",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042857"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3952195,
+          50.0598521
+        ]
+      },
+      "id": "node/296802047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296802686",
+        "addr:conscriptionnumber": "259",
+        "addr:housenumber": "259/35",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "35",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044426"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3802289,
+          50.0588828
+        ]
+      },
+      "id": "node/296802686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296802927",
+        "addr:conscriptionnumber": "288",
+        "addr:housenumber": "288/13",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "13",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3995126,
+          50.0542249
+        ]
+      },
+      "id": "node/296802927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296804010",
+        "addr:conscriptionnumber": "302",
+        "addr:housenumber": "302/1",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3785581,
+          50.0589157
+        ]
+      },
+      "id": "node/296804010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296804669",
+        "addr:conscriptionnumber": "254",
+        "addr:housenumber": "254/2",
+        "addr:place": "Radlice",
+        "addr:postcode": "15800",
+        "addr:street": "Puchmajerova",
+        "addr:streetnumber": "2",
+        "ref:ruian:addr": "22044353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3735209,
+          50.0551174
+        ]
+      },
+      "id": "node/296804669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296805322",
+        "addr:conscriptionnumber": "315",
+        "addr:housenumber": "315/3",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044981"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3988495,
+          50.0537666
+        ]
+      },
+      "id": "node/296805322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296805624",
+        "addr:conscriptionnumber": "268",
+        "addr:housenumber": "268/24",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "24",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3845993,
+          50.0590808
+        ]
+      },
+      "id": "node/296805624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296805936",
+        "addr:conscriptionnumber": "297",
+        "addr:housenumber": "297/47",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "47",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.379791,
+          50.0586895
+        ]
+      },
+      "id": "node/296805936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296806069",
+        "addr:conscriptionnumber": "147",
+        "addr:housenumber": "147/10",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3826319,
+          50.0604308
+        ]
+      },
+      "id": "node/296806069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296806435",
+        "addr:conscriptionnumber": "231",
+        "addr:housenumber": "231/7",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3802129,
+          50.0583004
+        ]
+      },
+      "id": "node/296806435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296806535",
+        "addr:conscriptionnumber": "174",
+        "addr:housenumber": "174/2",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "2",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3811275,
+          50.0594256
+        ]
+      },
+      "id": "node/296806535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296806811",
+        "addr:conscriptionnumber": "241",
+        "addr:housenumber": "241/16",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "16",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3834542,
+          50.0610666
+        ]
+      },
+      "id": "node/296806811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296811855",
+        "addr:conscriptionnumber": "124",
+        "addr:housenumber": "124/40",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "40",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3815808,
+          50.060664
+        ]
+      },
+      "id": "node/296811855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296814232",
+        "addr:conscriptionnumber": "226",
+        "addr:housenumber": "226/10",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "10",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3792537,
+          50.057843
+        ]
+      },
+      "id": "node/296814232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296817317",
+        "addr:conscriptionnumber": "289",
+        "addr:housenumber": "289/11",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044736"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3994849,
+          50.0539592
+        ]
+      },
+      "id": "node/296817317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296817867",
+        "addr:conscriptionnumber": "262",
+        "addr:housenumber": "262/49",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "49",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3796742,
+          50.0597592
+        ]
+      },
+      "id": "node/296817867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296818403",
+        "addr:conscriptionnumber": "307",
+        "addr:housenumber": "307/25",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "25",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3980901,
+          50.0549426
+        ]
+      },
+      "id": "node/296818403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296820298",
+        "addr:conscriptionnumber": "275",
+        "addr:housenumber": "275/2",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "2",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3846974,
+          50.0598066
+        ]
+      },
+      "id": "node/296820298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296827202",
+        "addr:conscriptionnumber": "191",
+        "addr:housenumber": "191/40",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "40",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043624"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3820466,
+          50.0586905
+        ]
+      },
+      "id": "node/296827202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296827394",
+        "addr:conscriptionnumber": "217",
+        "addr:housenumber": "217/27",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "27",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3815108,
+          50.0588879
+        ]
+      },
+      "id": "node/296827394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296828173",
+        "addr:conscriptionnumber": "203",
+        "addr:housenumber": "203/11",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "11",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3825892,
+          50.0597099
+        ]
+      },
+      "id": "node/296828173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296829314",
+        "addr:conscriptionnumber": "150",
+        "addr:housenumber": "150/4",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3821544,
+          50.0602249
+        ]
+      },
+      "id": "node/296829314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296829701",
+        "addr:conscriptionnumber": "205",
+        "addr:housenumber": "205/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně II",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3824637,
+          50.0598349
+        ]
+      },
+      "id": "node/296829701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296830576",
+        "addr:conscriptionnumber": "281",
+        "addr:housenumber": "281/1",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3850219,
+          50.0596085
+        ]
+      },
+      "id": "node/296830576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296832154",
+        "addr:conscriptionnumber": "214",
+        "addr:housenumber": "214/12",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "12",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798547,
+          50.0579328
+        ]
+      },
+      "id": "node/296832154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296834103",
+        "addr:conscriptionnumber": "239",
+        "addr:housenumber": "239/45",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "45",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044191"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798993,
+          50.0586447
+        ]
+      },
+      "id": "node/296834103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296836756",
+        "addr:conscriptionnumber": "123",
+        "addr:housenumber": "123/42",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "42",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.38169,
+          50.0607464
+        ]
+      },
+      "id": "node/296836756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296840741",
+        "addr:conscriptionnumber": "195",
+        "addr:housenumber": "195/24",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "24",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3820826,
+          50.0579312
+        ]
+      },
+      "id": "node/296840741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296842208",
+        "addr:conscriptionnumber": "236",
+        "addr:housenumber": "236/41",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "41",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.379735,
+          50.0591474
+        ]
+      },
+      "id": "node/296842208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296843580",
+        "addr:conscriptionnumber": "290",
+        "addr:housenumber": "290/9",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044744"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.39964,
+          50.0538277
+        ]
+      },
+      "id": "node/296843580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296843668",
+        "addr:conscriptionnumber": "304",
+        "addr:housenumber": "304/19",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "19",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3825417,
+          50.0591429
+        ]
+      },
+      "id": "node/296843668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296862982",
+        "addr:conscriptionnumber": "321",
+        "addr:housenumber": "321/4",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22769986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3789276,
+          50.0583767
+        ]
+      },
+      "id": "node/296862982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296863055",
+        "addr:conscriptionnumber": "173",
+        "addr:housenumber": "173/22",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "22",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3810222,
+          50.0590623
+        ]
+      },
+      "id": "node/296863055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296864363",
+        "addr:conscriptionnumber": "188",
+        "addr:housenumber": "188/4",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "4",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043594"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3808593,
+          50.0597557
+        ]
+      },
+      "id": "node/296864363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/416151116",
+        "addr:alternate": "333",
+        "addr:housenumber": "333/150",
+        "addr:postcode": "15057",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "150",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "ČSOB",
+        "brand:wikidata": "Q340135",
+        "brand:wikipedia": "en:Československá obchodní banka",
+        "name": "ČSOB",
+        "operator": "ČSOB",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3883437,
+          50.0584663
+        ]
+      },
+      "id": "node/416151116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449709296",
+        "addr:conscriptionnumber": "209",
+        "addr:housenumber": "209/16",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "16",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043837"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3830525,
+          50.0609674
+        ]
+      },
+      "id": "node/449709296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449709737",
+        "addr:conscriptionnumber": "249",
+        "addr:housenumber": "249/62",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "62",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3791113,
+          50.0594913
+        ]
+      },
+      "id": "node/449709737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449712616",
+        "addr:conscriptionnumber": "259",
+        "addr:housenumber": "259/48a",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "48a",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044434"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3801869,
+          50.0588155
+        ]
+      },
+      "id": "node/449712616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449712628",
+        "addr:conscriptionnumber": "273",
+        "addr:housenumber": "273/6",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3845289,
+          50.0600004
+        ]
+      },
+      "id": "node/449712628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449714665",
+        "addr:conscriptionnumber": "184",
+        "addr:housenumber": "184/20",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "20",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.381121,
+          50.059062
+        ]
+      },
+      "id": "node/449714665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449718449",
+        "addr:conscriptionnumber": "299",
+        "addr:housenumber": "299/20",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "20",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3797801,
+          50.0571637
+        ]
+      },
+      "id": "node/449718449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449723708",
+        "addr:conscriptionnumber": "103",
+        "addr:housenumber": "103/23",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "23",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3941624,
+          50.0589958
+        ]
+      },
+      "id": "node/449723708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449728025",
+        "addr:conscriptionnumber": "255",
+        "addr:housenumber": "255/65",
+        "addr:postcode": "15000",
+        "addr:street": "Peroutkova",
+        "addr:streetnumber": "65",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3826168,
+          50.0613552
+        ]
+      },
+      "id": "node/449728025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449735127",
+        "addr:conscriptionnumber": "312",
+        "addr:housenumber": "312/9",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044957"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3979818,
+          50.0541978
+        ]
+      },
+      "id": "node/449735127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449737618",
+        "addr:conscriptionnumber": "232",
+        "addr:housenumber": "232/3",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3793304,
+          50.0580767
+        ]
+      },
+      "id": "node/449737618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449752726",
+        "addr:conscriptionnumber": "45",
+        "addr:housenumber": "45/1",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "1",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042849"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3954638,
+          50.0600281
+        ]
+      },
+      "id": "node/449752726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449753879",
+        "addr:conscriptionnumber": "292",
+        "addr:housenumber": "292/5",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "5",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3998613,
+          50.053321
+        ]
+      },
+      "id": "node/449753879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449755075",
+        "addr:conscriptionnumber": "129",
+        "addr:housenumber": "129/3",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3816206,
+          50.0601502
+        ]
+      },
+      "id": "node/449755075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449759089",
+        "addr:conscriptionnumber": "237",
+        "addr:housenumber": "237/52",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "52",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3797441,
+          50.0590393
+        ]
+      },
+      "id": "node/449759089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449765951",
+        "addr:conscriptionnumber": "93",
+        "addr:housenumber": "93/17",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "17",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.394534,
+          50.0593011
+        ]
+      },
+      "id": "node/449765951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449777747",
+        "addr:conscriptionnumber": "199",
+        "addr:housenumber": "199/31",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "31",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3807976,
+          50.0588607
+        ]
+      },
+      "id": "node/449777747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449798974",
+        "addr:conscriptionnumber": "149",
+        "addr:housenumber": "149/6",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "6",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3822713,
+          50.0602716
+        ]
+      },
+      "id": "node/449798974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449818354",
+        "addr:conscriptionnumber": "116",
+        "addr:housenumber": "116/3",
+        "addr:postcode": "15000",
+        "addr:street": "U slévárny",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3832778,
+          50.0574203
+        ]
+      },
+      "id": "node/449818354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449819530",
+        "addr:conscriptionnumber": "132",
+        "addr:housenumber": "132/9",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně I",
+        "addr:streetnumber": "9",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3821496,
+          50.0603788
+        ]
+      },
+      "id": "node/449819530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449820151",
+        "addr:conscriptionnumber": "276",
+        "addr:housenumber": "276/3",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "3",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3842007,
+          50.0599531
+        ]
+      },
+      "id": "node/449820151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449832463",
+        "addr:conscriptionnumber": "260",
+        "addr:housenumber": "260/45",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "45",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3798899,
+          50.0595424
+        ]
+      },
+      "id": "node/449832463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449832525",
+        "addr:conscriptionnumber": "236",
+        "addr:housenumber": "236/54",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "54",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3796792,
+          50.0590789
+        ]
+      },
+      "id": "node/449832525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449838151",
+        "addr:conscriptionnumber": "128",
+        "addr:housenumber": "128/7",
+        "addr:postcode": "15000",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "7",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22043144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3811936,
+          50.0601032
+        ]
+      },
+      "id": "node/449838151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449840205",
+        "addr:conscriptionnumber": "305",
+        "addr:housenumber": "305/21",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "21",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044884"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.398561,
+          50.0547848
+        ]
+      },
+      "id": "node/449840205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449840648",
+        "addr:conscriptionnumber": "287",
+        "addr:housenumber": "287/15",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "15",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22044710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3993318,
+          50.0543449
+        ]
+      },
+      "id": "node/449840648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/449840886",
+        "addr:conscriptionnumber": "115",
+        "addr:housenumber": "115/140",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "140",
+        "source:addr": "uir_adr",
+        "uir_adr:ADRESA_KOD": "22042997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3930359,
+          50.0597126
+        ]
+      },
+      "id": "node/449840886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1709654293",
+        "addr:conscriptionnumber": "228",
+        "addr:housename": "Řeznictví a uzenářství - JIŘÍ KOUBEK",
+        "addr:housenumber": "228/3",
+        "addr:postcode": "15003",
+        "addr:street": "náměstí Na Farkáně",
+        "addr:streetnumber": "3",
+        "name": "Řeznictví a uzenářství",
+        "shop": "butcher",
+        "website": "http://www.masokoubek.cz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3809152,
+          50.0595654
+        ]
+      },
+      "id": "node/1709654293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614722",
+        "addr:conscriptionnumber": "322",
+        "addr:housenumber": "322/13",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U starého židovského hřbitova",
+        "addr:streetnumber": "13",
+        "ref:ruian:addr": "25333640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.398741,
+          50.0580873
+        ]
+      },
+      "id": "node/2823614722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614723",
+        "addr:conscriptionnumber": "323",
+        "addr:housenumber": "323/16",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na Brabenci",
+        "addr:streetnumber": "16",
+        "ref:ruian:addr": "25190873"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3965863,
+          50.0582619
+        ]
+      },
+      "id": "node/2823614723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614724",
+        "addr:conscriptionnumber": "325",
+        "addr:housenumber": "325/8",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na Brabenci",
+        "addr:streetnumber": "8",
+        "ref:ruian:addr": "25559958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3983672,
+          50.0578323
+        ]
+      },
+      "id": "node/2823614724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614725",
+        "addr:conscriptionnumber": "326",
+        "addr:housenumber": "326/26",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně III",
+        "addr:streetnumber": "26",
+        "ref:ruian:addr": "25800701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3805107,
+          50.0592453
+        ]
+      },
+      "id": "node/2823614725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614726",
+        "addr:conscriptionnumber": "327",
+        "addr:housenumber": "327/17",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U starého židovského hřbitova",
+        "addr:streetnumber": "17",
+        "ref:ruian:addr": "26070936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3982091,
+          50.0582032
+        ]
+      },
+      "id": "node/2823614726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614727",
+        "addr:conscriptionnumber": "328",
+        "addr:housenumber": "328/1a",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "1a",
+        "ref:ruian:addr": "26213800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4005891,
+          50.0525031
+        ]
+      },
+      "id": "node/2823614727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614728",
+        "addr:conscriptionnumber": "329",
+        "addr:housenumber": "329/2a",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Výmolova",
+        "addr:streetnumber": "2a",
+        "ref:ruian:addr": "26227517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3947307,
+          50.0550518
+        ]
+      },
+      "id": "node/2823614728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614730",
+        "addr:conscriptionnumber": "330",
+        "addr:housenumber": "330/8",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "8",
+        "ref:ruian:addr": "26663554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3967528,
+          50.0549236
+        ]
+      },
+      "id": "node/2823614730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614731",
+        "addr:conscriptionnumber": "331",
+        "addr:housenumber": "331/19a",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "19a",
+        "ref:ruian:addr": "26663546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3998606,
+          50.0544102
+        ]
+      },
+      "id": "node/2823614731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614732",
+        "addr:conscriptionnumber": "331",
+        "addr:housenumber": "331/2",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "2",
+        "ref:ruian:addr": "26663520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3997559,
+          50.0544219
+        ]
+      },
+      "id": "node/2823614732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614733",
+        "addr:conscriptionnumber": "331",
+        "addr:housenumber": "331/4",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "4",
+        "ref:ruian:addr": "26663538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3998388,
+          50.0543324
+        ]
+      },
+      "id": "node/2823614733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614734",
+        "addr:conscriptionnumber": "332",
+        "addr:housenumber": "332/19",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U starého židovského hřbitova",
+        "addr:streetnumber": "19",
+        "ref:ruian:addr": "26692945"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3978615,
+          50.058152
+        ]
+      },
+      "id": "node/2823614734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614735",
+        "addr:conscriptionnumber": "333",
+        "addr:housenumber": "333/1",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U kostela",
+        "addr:streetnumber": "1",
+        "ref:ruian:addr": "26664712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3867709,
+          50.0586386
+        ]
+      },
+      "id": "node/2823614735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614736",
+        "addr:conscriptionnumber": "333",
+        "addr:housenumber": "333/150",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "150",
+        "ref:ruian:addr": "26664704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3869972,
+          50.0582855
+        ]
+      },
+      "id": "node/2823614736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614737",
+        "addr:conscriptionnumber": "334",
+        "addr:housenumber": "334/1a",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "1a",
+        "ref:ruian:addr": "27211134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.395756,
+          50.0600467
+        ]
+      },
+      "id": "node/2823614737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614738",
+        "addr:conscriptionnumber": "335",
+        "addr:housenumber": "335/2",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Klímova",
+        "addr:streetnumber": "2",
+        "ref:ruian:addr": "27469735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.389537,
+          50.0602416
+        ]
+      },
+      "id": "node/2823614738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614740",
+        "addr:conscriptionnumber": "336",
+        "addr:housenumber": "336/4",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Klímova",
+        "addr:streetnumber": "4",
+        "ref:ruian:addr": "27469727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3901865,
+          50.0601301
+        ]
+      },
+      "id": "node/2823614740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614742",
+        "addr:conscriptionnumber": "337",
+        "addr:housenumber": "337/6",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Klímova",
+        "addr:streetnumber": "6",
+        "ref:ruian:addr": "27469719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3908832,
+          50.0601165
+        ]
+      },
+      "id": "node/2823614742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614743",
+        "addr:conscriptionnumber": "338",
+        "addr:housenumber": "338/8",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Klímova",
+        "addr:streetnumber": "8",
+        "ref:ruian:addr": "27469701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3915401,
+          50.0602002
+        ]
+      },
+      "id": "node/2823614743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614744",
+        "addr:conscriptionnumber": "339",
+        "addr:housenumber": "339/5",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Kutvirtova",
+        "addr:streetnumber": "5",
+        "ref:ruian:addr": "27561054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3930571,
+          50.0575437
+        ]
+      },
+      "id": "node/2823614744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614745",
+        "addr:conscriptionnumber": "340",
+        "addr:housenumber": "340/27",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "27",
+        "ref:ruian:addr": "27931838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3939721,
+          50.0587878
+        ]
+      },
+      "id": "node/2823614745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614746",
+        "addr:conscriptionnumber": "342",
+        "addr:housenumber": "342/22",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "22",
+        "ref:ruian:addr": "40409783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3814495,
+          50.0578522
+        ]
+      },
+      "id": "node/2823614746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614747",
+        "addr:conscriptionnumber": "343",
+        "addr:housenumber": "343/19b",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U Dívčích hradů",
+        "addr:streetnumber": "19b",
+        "ref:ruian:addr": "42540721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3989064,
+          50.0547231
+        ]
+      },
+      "id": "node/2823614747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614751",
+        "addr:conscriptionnumber": "36",
+        "addr:housenumber": "36/160",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "160",
+        "ref:ruian:addr": "31342876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3830047,
+          50.0576673
+        ]
+      },
+      "id": "node/2823614751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614752",
+        "addr:conscriptionnumber": "39",
+        "addr:housenumber": "39",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "ref:ruian:addr": "22754652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3815517,
+          50.0550959
+        ]
+      },
+      "id": "node/2823614752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614779",
+        "addr:conscriptionnumber": "63",
+        "addr:housenumber": "63/11",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Pechlátova",
+        "addr:streetnumber": "11",
+        "ref:ruian:addr": "25704451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3949243,
+          50.0595813
+        ]
+      },
+      "id": "node/2823614779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2823614991",
+        "addr:housenumber": "ev.9",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:provisionalnumber": "9",
+        "ref:ruian:addr": "30972523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3963892,
+          50.0547188
+        ]
+      },
+      "id": "node/2823614991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2981698396",
+        "addr:conscriptionnumber": "341",
+        "addr:housenumber": "341/2b",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Výmolova",
+        "addr:streetnumber": "2b",
+        "ref:ruian:addr": "28345029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3949574,
+          50.0547962
+        ]
+      },
+      "id": "node/2981698396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2981698404",
+        "addr:conscriptionnumber": "344",
+        "addr:housenumber": "344/19",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "19",
+        "ref:ruian:addr": "72884282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.39565,
+          50.054815
+        ]
+      },
+      "id": "node/2981698404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3492335231",
+        "addr:conscriptionnumber": "345",
+        "addr:housenumber": "345",
+        "addr:place": "Radlice",
+        "addr:postcode": "15800",
+        "addr:street": "Radlická",
+        "ref:ruian:addr": "73615307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3828943,
+          50.0556431
+        ]
+      },
+      "id": "node/3492335231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699551919",
+        "addr:conscriptionnumber": "346",
+        "addr:housenumber": "346/11",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "11",
+        "ref:ruian:addr": "73940003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3815955,
+          50.058236
+        ]
+      },
+      "id": "node/3699551919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699551921",
+        "addr:conscriptionnumber": "347",
+        "addr:housenumber": "347/13",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké I",
+        "addr:streetnumber": "13",
+        "ref:ruian:addr": "73940020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3818681,
+          50.0581813
+        ]
+      },
+      "id": "node/3699551921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3908078171",
+        "addr:conscriptionnumber": "348",
+        "addr:housenumber": "348/142",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "142",
+        "ref:ruian:addr": "74352628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3921792,
+          50.0593488
+        ]
+      },
+      "id": "node/3908078171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3908078173",
+        "addr:conscriptionnumber": "349",
+        "addr:housenumber": "349/23",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "U starého židovského hřbitova",
+        "addr:streetnumber": "23",
+        "ref:ruian:addr": "74395076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3971256,
+          50.0583627
+        ]
+      },
+      "id": "node/3908078173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278542363",
+        "addr:conscriptionnumber": "350",
+        "addr:housenumber": "350/107c",
+        "addr:place": "Radlice",
+        "addr:postcode": "15800",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "107c",
+        "ref:ruian:addr": "75117886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3791474,
+          50.0554254
+        ]
+      },
+      "id": "node/4278542363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278542364",
+        "addr:conscriptionnumber": "350",
+        "addr:housenumber": "350/107d",
+        "addr:place": "Radlice",
+        "addr:postcode": "15800",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "107d",
+        "ref:ruian:addr": "75117932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3788291,
+          50.0554685
+        ]
+      },
+      "id": "node/4278542364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4945949856",
+        "addr:conscriptionnumber": "207",
+        "addr:housenumber": "207/44",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na Farkáně IV",
+        "addr:streetnumber": "44",
+        "ref:ruian:addr": "22043799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3811729,
+          50.0587755
+        ]
+      },
+      "id": "node/4945949856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5518106816",
+        "addr:conscriptionnumber": "351",
+        "addr:housenumber": "351/1b",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "1b",
+        "ref:ruian:addr": "78165318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.399678,
+          50.0529251
+        ]
+      },
+      "id": "node/5518106816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5518106817",
+        "addr:conscriptionnumber": "351",
+        "addr:housenumber": "351/1c",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Tetínská",
+        "addr:streetnumber": "1c",
+        "ref:ruian:addr": "78165016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3994446,
+          50.0531104
+        ]
+      },
+      "id": "node/5518106817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6354320081",
+        "addr:conscriptionnumber": "352",
+        "addr:housenumber": "352/21",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Nad Konvářkou",
+        "addr:streetnumber": "21",
+        "ref:ruian:addr": "79230687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.395859,
+          50.0550295
+        ]
+      },
+      "id": "node/6354320081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6494632696",
+        "addr:conscriptionnumber": "353",
+        "addr:housenumber": "353/3",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Výmolova",
+        "addr:streetnumber": "3",
+        "ref:ruian:addr": "79326714"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3883691,
+          50.0570223
+        ]
+      },
+      "id": "node/6494632696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7341218191",
+        "addr:conscriptionnumber": "354",
+        "addr:housenumber": "354/107b",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Radlická",
+        "addr:streetnumber": "107b",
+        "ref:ruian:addr": "80485600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3805301,
+          50.0559035
+        ]
+      },
+      "id": "node/7341218191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7750294316",
+        "addr:conscriptionnumber": "355",
+        "addr:housenumber": "355/3",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Na vysoké II",
+        "addr:streetnumber": "3",
+        "ref:ruian:addr": "80950493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3788371,
+          50.0586574
+        ]
+      },
+      "id": "node/7750294316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7876097244",
+        "addr:housenumber": "ev.20",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:provisionalnumber": "20",
+        "addr:street": "Výmolova",
+        "ref:ruian:addr": "81081197"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3937831,
+          50.0545405
+        ]
+      },
+      "id": "node/7876097244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8175553847",
+        "addr:conscriptionnumber": "356",
+        "addr:housenumber": "356/17",
+        "addr:place": "Radlice",
+        "addr:postcode": "15000",
+        "addr:street": "Od Vysoké",
+        "addr:streetnumber": "17",
+        "ref:ruian:addr": "81253087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3823599,
+          50.0609346
+        ]
+      },
+      "id": "node/8175553847"
+    }
+  ]
+}
