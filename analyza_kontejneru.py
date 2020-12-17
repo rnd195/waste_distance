@@ -2,6 +2,7 @@ import json
 from math import sqrt
 # from statistics import mean, median
 from pyproj import CRS, Transformer
+from sys import exit
 
 
 def prumer_slovnik(slovnik):
@@ -21,34 +22,40 @@ def median_slovnik(slovnik):
     return (seznam[pozice] + seznam[pozice + 1]) / 2
 
 
-# Definice pro prevod
-
+# DEFINICE PRO PREVOD
 crs_wgs = CRS.from_epsg(4326)  # WGS-84
 crs_jtsk = CRS.from_epsg(5514)  # S-JTSK
 wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 
-# pro kontrolu: https://www.estudanky.eu/prevody/jtsk.php
-# jtsk = wgs2jtsk.transform(50, 15)  # sirka, delka
-# print(jtsk)
 
-# jtsk2wgs = Transformer.from_crs(crs_jtsk, crs_wgs)
-
-# print(jtsk2wgs.transform(*jtsk))
-
-# loadovani dat
-
-with open("stare_mesto_small.geojson", "r", encoding="UTF-8") as file:
-    adresy = json.load(file)
+# NACITANI DAT
+try:
+    with open("stare_mesto_small.geojson", "r", encoding="UTF-8") as file:
+        adresy = json.load(file)
+# ValueError zahrnuje JSONDecodeError
+except (FileNotFoundError, NameError, ValueError):
+    print("Soubor adresy.geojson neexistuje nebo je chybny. "
+          "Program se ukonci.")
+    exit()
 
 adresy_info = adresy["features"]
 
-with open("kontejnery_small.geojson", "r", encoding="UTF-8") as file:
-    kont = json.load(file)
+# Pokud mam prazdny seznam adres, vypnu program
+if len(adresy_info) == 0:
+    print("Soubor s adresami je prazdny.\n"
+          "Program se ukonci.")
+
+try:
+    with open("kontejnery_small.geojson", "r", encoding="UTF-8") as file:
+        kont = json.load(file)
+except (FileNotFoundError, NameError, ValueError):
+    print("Soubor kontejnery.geojson neexistuje nebo je chybny. "
+          "Program se ukonci.")
+    exit()
 
 kont_info = kont["features"]
 
 
-# TODO přidat nějaký check, kdyby to nebyl float (pak skip)
 # TODO pomocí xlsx souborů najít divný hodnoty typu missing
 
 slovnik_kont = {}
@@ -66,11 +73,12 @@ for i in range(len(kont_info)):
         slovnik_kont[kont_ulice_cp] = kont_souradnice
 
 
-# pokud je slovnik_kont prazdny, vypni program
+# Pokud nejsou v souboru zadne volne kontejnery, vypni program
+# Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat)
 if len(slovnik_kont) == 0:
     print("V souboru s kontejnery neni zadny volny kontejner."
           "Program se ukonci")
-    exit(0)
+    exit()
 
 
 # vybudovani slovniku adres adresa : souradnice x y
