@@ -1,8 +1,8 @@
 import json
 from math import sqrt
-# from statistics import mean, median
 from pyproj import CRS, Transformer
 from sys import exit
+# from statistics import mean, median  # na kontrolu
 
 
 def prumer_slovnik(slovnik):
@@ -30,7 +30,6 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 
 
 # NACITANI DAT
-
 # Pokud soubor chybi nebo je vadny, vypni program
 try:
     with open("stare_mesto_small.geojson", "r", encoding="UTF-8") as file:
@@ -60,7 +59,6 @@ kont_info = kont["features"]
 
 
 # VYTVARENI SLOVNIKU
-
 # Vytvori se slovnik s unikatnim klicem ulice a cisla popisneho,
 # kde hodnoty daneho slovniku jsou souradnice.
 slovnik_kont = {}
@@ -73,7 +71,7 @@ for i in range(len(kont_info)):
         kont_pristup = kont_info[i]["properties"]["PRISTUP"]
     except KeyError:
         continue
-    # Zapisuje pouze volne pristupne kontejnery
+    # Zapisuje do slovniku pouze volne pristupne kontejnery
     if kont_pristup == "volně":
         slovnik_kont[kont_ulice_cp] = kont_souradnice
 
@@ -102,18 +100,19 @@ for j in range(len(adresy_info)):
     slovnik_adresy[adresa_ulice_cp] = adresa_jtsk
 
 
-# hledani nejmensi vzdalenosti pro danou adresu
-# TODO kontejner nad 10 000 m
+# HLEDANI NEJMENSI VZDALENOSTI PRO DANOU ADRESU
 
 slovnik_adresy_minkont = {}
 
 for (klic_adresy, hodnota_adresy) in slovnik_adresy.items():
+    # Souradnice adresniho bodu
     x_1 = hodnota_adresy[0]
     y_1 = hodnota_adresy[1]
 
     docasny_seznam = []
 
     for hodnota_kont in slovnik_kont.values():
+        # Souradnice kontejneru
         x_2 = hodnota_kont[0]
         y_2 = hodnota_kont[1]
 
@@ -122,10 +121,12 @@ for (klic_adresy, hodnota_adresy) in slovnik_adresy.items():
         odvesna2 = abs(y_1 - y_2)
         prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
 
+        # A vzniknlou vzdalenost pridej do seznamu
         docasny_seznam.append(prepona)
 
     min_vzdalenost = min(docasny_seznam)
     
+    # Osetreni 10km vzdaleneho kontejneru
     if min_vzdalenost > 10000:
         print("Kontejner je prilis daleko. Mate spravna data? "
               "Program se ukonci.")
