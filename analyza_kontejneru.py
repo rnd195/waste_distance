@@ -27,7 +27,7 @@ with open("stare_mesto_small.geojson", "r", encoding="UTF-8") as file:
 
 adresy_info = adresy["features"]
 
-with open("kontejnery_small.json", "r", encoding="UTF-8") as file:
+with open("kontejnery_small.geojson", "r", encoding="UTF-8") as file:
     kont = json.load(file)
 
 kont_info = kont["features"]
