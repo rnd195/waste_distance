@@ -68,3 +68,52 @@ print(vzdalenost)
 # z těchto dvojic zjistit průměr a maximum
 # vyplatí se to házet do dvojic (asi slovník), protože pak budu volat nejdelší
 # vzdálenost
+
+
+# vybudovani slovniku kontejneru adresa : souradnice x y
+
+# TODO přidat nějaký check, kdyby to nebyl float (pak skip)
+# TODO pomocí xlsx souborů najít divný hodnoty typu missing
+
+slovnik_kont = {}
+
+for i in range(len(kont_info)):
+    # osetreni chybejicich klicu
+    try:
+        kont_ulice_cp = kont_info[i]["properties"]["STATIONNAME"]
+        kont_souradnice = kont_info[i]["geometry"]["coordinates"]
+        kont_pristup = kont_info[i]["properties"]["PRISTUP"]
+    except KeyError:
+        continue
+    
+    if kont_pristup == "volně":
+        slovnik_kont[kont_ulice_cp] = kont_souradnice
+
+
+# pokud je slovnik_kont prazdny, vypni program
+if len(slovnik_kont) == 0:
+    print("V souboru s kontejnery neni zadny volny kontejner."
+          "Program se ukonci")
+    exit(0)
+    
+
+# vybudovani slovniku adres adresa : souradnice x y
+
+slovnik_adresy = {}
+
+for j in range(len(adresy_info)):
+    # osetreni chybejicich klicu
+    try:
+        adresa_cp = adresy_info[j]["properties"]["addr:housenumber"]
+        adresa_ulice = adresy_info[j]["properties"]["addr:street"]
+        adresa_sirka = adresy_info[j]["geometry"]["coordinates"][1]
+        adresa_delka = adresy_info[j]["geometry"]["coordinates"][0]
+    except KeyError:
+        continue
+    
+    adresa_jtsk = wgs2jtsk.transform(adresa_sirka, adresa_delka)
+    # ulice mezera cislo popisne
+    adresa_ulice_cp = adresa_ulice + " " + adresa_cp
+    
+    # budovani slovniku
+    slovnik_adresy[adresa_ulice_cp] = adresa_jtsk
