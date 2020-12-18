@@ -1,8 +1,8 @@
 import json
 import os
+from sys import exit
 from math import sqrt
 from pyproj import CRS, Transformer
-from sys import exit
 
 # from statistics import mean, median  # na kontrolu prumeru a medianu
 
@@ -191,7 +191,7 @@ print(
     f"a to {max_m:.0f} metru."
 )
 
-ukonceni = input(
+input(
     "\n"
     "Stisknete klavesu Enter pro ukonceni programu. "
 )
