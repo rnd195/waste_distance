@@ -1,4 +1,5 @@
 import json
+import os
 from math import sqrt
 from pyproj import CRS, Transformer
 from sys import exit
@@ -27,6 +28,7 @@ def median_slovnik(slovnik):
 
 
 # DEFINICE PRO PREVOD SOURADNIC
+
 crs_wgs = CRS.from_epsg(4326)  # WGS-84
 crs_jtsk = CRS.from_epsg(5514)  # S-JTSK
 # Konvertovani souradnic z wgs do jtsk formatu
@@ -34,6 +36,10 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 
 
 # NACITANI DAT
+
+# Nastavi pracovni adresar na filepath
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 # Pokud soubor chybi nebo je vadny, vypni program
 try:
     with open("adresy.geojson", "r", encoding="UTF-8") as file:
@@ -185,5 +191,8 @@ print(
     f"a to {max_m:.0f} metru."
 )
 
-ukonceni = input("Stisknete klavesu Enter pro ukonceni programu. ")
+ukonceni = input(
+    "\n"
+    "Stisknete klavesu Enter pro ukonceni programu. "
+)
 exit()
