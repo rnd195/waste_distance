@@ -12,13 +12,61 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -742784.9999562949, -1043789.0000025257 ]
+				"coordinates" : [ -744194.7600242086, -1044533.2999799959 ]
 			},
 			"properties" : {
-				"OBJECTID" : 1,
-				"ID" : 3620,
-				"STATIONNUMBER" : "0001/-095",
-				"STATIONNAME" : "Jungmannova 737/16",
+				"OBJECTID" : 364,
+				"ID" : 5627,
+				"STATIONNUMBER" : "0005/-076",
+				"STATIONNAME" : "Lidická 292/38",
+				"CITYDISTRICTRUIANCODE" : 500143,
+				"CITYDISTRICT" : "Praha 5",
+				"PRISTUP" : "obyvatelům domu"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -744448.7899823859, -1043962.4799739681 ]
+			},
+			"properties" : {
+				"OBJECTID" : 365,
+				"ID" : 5628,
+				"STATIONNUMBER" : "0005/-078",
+				"STATIONNAME" : "Holečkova 422/23",
+				"CITYDISTRICTRUIANCODE" : 500143,
+				"CITYDISTRICT" : "Praha 5",
+				"PRISTUP" : "obyvatelům domu"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -744068.3700450137, -1043604.1800329536 ]
+			},
+			"properties" : {
+				"OBJECTID" : 366,
+				"ID" : 5629,
+				"STATIONNUMBER" : "0005/-081",
+				"STATIONNAME" : "Plaská 612/14",
+				"CITYDISTRICTRUIANCODE" : 500143,
+				"CITYDISTRICT" : "Praha 5",
+				"PRISTUP" : "obyvatelům domu"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -742844.590046484, -1042851.9699567892 ]
+			},
+			"properties" : {
+				"OBJECTID" : 367,
+				"ID" : 5700,
+				"STATIONNUMBER" : "0001/-878",
+				"STATIONNAME" : "Salvátorská 1067/4",
 				"CITYDISTRICTRUIANCODE" : 500054,
 				"CITYDISTRICT" : "Praha 1",
 				"PRISTUP" : "obyvatelům domu"
@@ -28,15 +76,31 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -742706.8099691682, -1043502.0800497606 ]
+				"coordinates" : [ -742453.800010819, -1044745.4500450678 ]
 			},
 			"properties" : {
-				"OBJECTID" : 2,
-				"ID" : 3622,
-				"STATIONNUMBER" : "0001/-097",
-				"STATIONNAME" : "Jungmannovo náměstí 757/14",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 368,
+				"ID" : 5701,
+				"STATIONNUMBER" : "0002/-508",
+				"STATIONNAME" : "Sokolská 1804/28",
+				"CITYDISTRICTRUIANCODE" : 500089,
+				"CITYDISTRICT" : "Praha 2",
+				"PRISTUP" : "obyvatelům domu"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -735984.1752759032, -1038947.3758995943 ]
+			},
+			"properties" : {
+				"OBJECTID" : 369,
+				"ID" : 264,
+				"STATIONNUMBER" : "0018/ 014",
+				"STATIONNAME" : "Bukovecká 515",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
 		},
@@ -44,15 +108,15 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -743108.0000031181, -1042878.9999523386 ]
+				"coordinates" : [ -735772.318010781, -1037258.1965776831 ]
 			},
 			"properties" : {
-				"OBJECTID" : 3,
-				"ID" : 3624,
-				"STATIONNUMBER" : "0001/-099",
-				"STATIONNAME" : "Kaprova 52/6",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 370,
+				"ID" : 265,
+				"STATIONNUMBER" : "0018/ 015",
+				"STATIONNAME" : "Žamberská 151",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
 		},
@@ -60,15 +124,15 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -743095.4200051911, -1042891.6899502501 ]
+				"coordinates" : [ -735993.7509743273, -1039424.1700211018 ]
 			},
 			"properties" : {
-				"OBJECTID" : 4,
-				"ID" : 3625,
-				"STATIONNUMBER" : "0001/-100",
-				"STATIONNAME" : "Kaprova 49/8",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 371,
+				"ID" : 266,
+				"STATIONNUMBER" : "0018/ 016",
+				"STATIONNAME" : "Opočenská 229",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
 		},
@@ -76,15 +140,15 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -751326.179950174, -1043050.0700241774 ]
+				"coordinates" : [ -735921.2004862688, -1039137.757168252 ]
 			},
 			"properties" : {
-				"OBJECTID" : 5,
-				"ID" : 3626,
-				"STATIONNUMBER" : "0001/-101",
-				"STATIONNAME" : "Karlova 146/23",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 372,
+				"ID" : 267,
+				"STATIONNUMBER" : "0018/ 017",
+				"STATIONNAME" : "Dobratická 525",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
 		},
@@ -92,223 +156,15 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -742936.0400314294, -1044076.1399552561 ]
+				"coordinates" : [ -736031.7615680695, -1038805.7965229042 ]
 			},
 			"properties" : {
-				"OBJECTID" : 6,
-				"ID" : 3627,
-				"STATIONNUMBER" : "0001/-102",
-				"STATIONNAME" : "Karlovo náměstí 670/25",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744023.079952471, -1043045.3500249535 ]
-			},
-			"properties" : {
-				"OBJECTID" : 7,
-				"ID" : 3628,
-				"STATIONNUMBER" : "0001/-103",
-				"STATIONNAME" : "Karmelitská 384/10",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744127.2000353299, -1042992.1800337061 ]
-			},
-			"properties" : {
-				"OBJECTID" : 8,
-				"ID" : 3629,
-				"STATIONNUMBER" : "0001/-104",
-				"STATIONNAME" : "Karmelitská 545/11",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744107.5600385629, -1042981.5100354627 ]
-			},
-			"properties" : {
-				"OBJECTID" : 9,
-				"ID" : 3631,
-				"STATIONNUMBER" : "0001/-106",
-				"STATIONNAME" : "Karmelitská 546/13",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744057.9700467288, -1043006.5600313395 ]
-			},
-			"properties" : {
-				"OBJECTID" : 10,
-				"ID" : 3632,
-				"STATIONNUMBER" : "0001/-107",
-				"STATIONNAME" : "Karmelitská 381/15",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744069.9500447549, -1042912.2000468746 ]
-			},
-			"properties" : {
-				"OBJECTID" : 11,
-				"ID" : 3633,
-				"STATIONNUMBER" : "0001/-108",
-				"STATIONNAME" : "Karmelitská 374/23",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744070.0000447482, -1042867.9999541491 ]
-			},
-			"properties" : {
-				"OBJECTID" : 12,
-				"ID" : 3634,
-				"STATIONNUMBER" : "0001/-109",
-				"STATIONNAME" : "Karmelitská 301/29",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744037.999950014, -1042840.9999585934 ]
-			},
-			"properties" : {
-				"OBJECTID" : 13,
-				"ID" : 3635,
-				"STATIONNUMBER" : "0001/-110",
-				"STATIONNAME" : "Karmelitská 270/30",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743279.5199748836, -1043563.7800396048 ]
-			},
-			"properties" : {
-				"OBJECTID" : 14,
-				"ID" : 3636,
-				"STATIONNUMBER" : "0001/-111",
-				"STATIONNAME" : "Karoliny Světlé 1019/5",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743295.8399721943, -1043565.5100393184 ]
-			},
-			"properties" : {
-				"OBJECTID" : 15,
-				"ID" : 3637,
-				"STATIONNUMBER" : "0001/-112",
-				"STATIONNAME" : "Karoliny Světlé 1018/7",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743328.729966782, -1043552.1900415123 ]
-			},
-			"properties" : {
-				"OBJECTID" : 16,
-				"ID" : 3638,
-				"STATIONNUMBER" : "0001/-113",
-				"STATIONNAME" : "Karoliny Světlé 1015/11",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743359.9599616379, -1043494.969950933 ]
-			},
-			"properties" : {
-				"OBJECTID" : 17,
-				"ID" : 3640,
-				"STATIONNUMBER" : "0001/-115",
-				"STATIONNAME" : "Karoliny Světlé 317/15",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743362.9199611507, -1043484.4399526678 ]
-			},
-			"properties" : {
-				"OBJECTID" : 18,
-				"ID" : 3641,
-				"STATIONNUMBER" : "0001/-116",
-				"STATIONNAME" : "Karoliny Světlé 1035/17",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743377.7499587089, -1043304.6999822557 ]
-			},
-			"properties" : {
-				"OBJECTID" : 19,
-				"ID" : 3645,
-				"STATIONNUMBER" : "0001/-121",
-				"STATIONNAME" : "Karoliny Světlé 328/35",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 373,
+				"ID" : 268,
+				"STATIONNUMBER" : "0018/ 018",
+				"STATIONNAME" : "Tupolevova 501",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
 		},
@@ -316,161 +172,17 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ -745120.9999717213, -1042569.5900032781 ]
+				"coordinates" : [ -736080.2930600792, -1038257.2135132141 ]
 			},
 			"properties" : {
-				"OBJECTID" : 20,
-				"ID" : 3646,
-				"STATIONNUMBER" : "0001/-122",
-				"STATIONNAME" : "Keplerova 216/12",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
+				"OBJECTID" : 374,
+				"ID" : 269,
+				"STATIONNUMBER" : "0018/ 019",
+				"STATIONNAME" : "Tupolevova 463",
+				"CITYDISTRICTRUIANCODE" : 547417,
+				"CITYDISTRICT" : "Praha 18",
 				"PRISTUP" : "volně"
 			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742253.0100438744, -1042616.5599955432 ]
-			},
-			"properties" : {
-				"OBJECTID" : 21,
-				"ID" : 3647,
-				"STATIONNUMBER" : "0001/-123",
-				"STATIONNAME" : "Klimentská 1552/3",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742158.869959373, -1042607.1899970844 ]
-			},
-			"properties" : {
-				"OBJECTID" : 22,
-				"ID" : 3649,
-				"STATIONNUMBER" : "0001/-125",
-				"STATIONNAME" : "Klimentská 1209/14",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742149.5699609034, -1042607.129997097 ]
-			},
-			"properties" : {
-				"OBJECTID" : 23,
-				"ID" : 3650,
-				"STATIONNUMBER" : "0001/-126",
-				"STATIONNAME" : "Klimentská 1210/16",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "volně"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -741998.6699857451, -1042573.8100025803 ]
-			},
-			"properties" : {
-				"OBJECTID" : 24,
-				"ID" : 3651,
-				"STATIONNUMBER" : "0001/-127",
-				"STATIONNAME" : "Klimentská 2066/19",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "volně"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -741970.9399903119, -1042581.2000013664 ]
-			},
-			"properties" : {
-				"OBJECTID" : 25,
-				"ID" : 3652,
-				"STATIONNUMBER" : "0001/-128",
-				"STATIONNAME" : "Klimentská 2061/21",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742013.5899832882, -1042609.9199966379 ]
-			},
-			"properties" : {
-				"OBJECTID" : 26,
-				"ID" : 3653,
-				"STATIONNUMBER" : "0001/-129",
-				"STATIONNAME" : "Klimentská 2067/34",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -743430.5469500199, -1042594.1552992314 ]
-			},
-			"properties" : {
-				"OBJECTID" : 27,
-				"ID" : 3654,
-				"STATIONNUMBER" : "0001/-130",
-				"STATIONNAME" : "Kosárkovo nábřeží 554/2",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742690.2599718906, -1042731.3699766435 ]
-			},
-			"properties" : {
-				"OBJECTID" : 28,
-				"ID" : 3655,
-				"STATIONNUMBER" : "0001/-131",
-				"STATIONNAME" : "Kozí 916/5",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -742679.9999735802, -1042692.9999829605 ]
-			},
-			"properties" : {
-				"OBJECTID" : 29,
-				"ID" : 3656,
-				"STATIONNUMBER" : "0001/-132",
-				"STATIONNAME" : "Kozí 914/9",
-				"CITYDISTRICTRUIANCODE" : 500054,
-				"CITYDISTRICT" : "Praha 1",
-				"PRISTUP" : "obyvatelům domu"
-			}
-		}		
+		}	
 	]
 }
