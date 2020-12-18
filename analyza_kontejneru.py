@@ -2,6 +2,7 @@ import json
 from math import sqrt
 from pyproj import CRS, Transformer
 from sys import exit
+
 # from statistics import mean, median  # na kontrolu
 
 
@@ -39,23 +40,25 @@ try:
         adresy = json.load(file)
 # ValueError zahrnuje JSONDecodeError
 except (FileNotFoundError, NameError, ValueError):
-    print("Soubor adresy.geojson neexistuje nebo je chybny. "
-          "Program se ukonci.")
+    print(
+        "Soubor adresy.geojson neexistuje nebo je chybny. Program se ukonci."
+    )
     exit()
 
 adresy_info = adresy["features"]
 
 # Pokud mam prazdny seznam adres, vypnu program
 if len(adresy_info) == 0:
-    print("Soubor s adresami je prazdny.\n"
-          "Program se ukonci.")
+    print("Soubor s adresami je prazdny. Program se ukonci.")
 
 try:
     with open("kontejnery.geojson", "r", encoding="UTF-8") as file:
         kont = json.load(file)
 except (FileNotFoundError, NameError, ValueError):
-    print("Soubor kontejnery.geojson neexistuje nebo je chybny. "
-          "Program se ukonci.")
+    print(
+        "Soubor kontejnery.geojson neexistuje nebo je chybny. "
+        "Program se ukonci."
+    )
     exit()
 
 kont_info = kont["features"]
@@ -83,8 +86,9 @@ for i in range(len(kont_info)):
 # Pokud nejsou v souboru zadne volne kontejnery, vypni program
 # Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat)
 if len(slov_kont) == 0:
-    print("V souboru s kontejnery neni zadny volny kontejner."
-          "Program se ukonci")
+    print(
+        "V souboru s kontejnery neni zadny volne pristupny. Program se ukonci"
+    )
     exit()
 
 slov_adresy = {}
@@ -133,8 +137,10 @@ for (klic_adresy, hodnota_adresy) in slov_adresy.items():
 
     # Osetreni 10km vzdaleneho kontejneru
     if min_vzdalenost > 10000:
-        print("Kontejner je prilis daleko. Mate spravna data? "
-              "Program se ukonci.")
+        print(
+            "Kontejner je prilis daleko. Mate spravna data? "
+            "Program se ukonci."
+        )
         exit()
 
     slov_adresy_minkont[klic_adresy] = min_vzdalenost
@@ -160,12 +166,16 @@ for (klic, hodnota) in slov_adresy_minkont.items():
 print(f"Nacteno {len(slov_adresy)} adresnich bodu.")
 print(f"Nacteno {len(slov_kont)} kontejneru na trideny odpad.")
 
-print("\n"
-      "Prumerna vzdalenost adresniho bodu k verejnemu kontejneru: "
-      f"{prumer_m:.0f} metru.")
+print(
+    "\n"
+    "Prumerna vzdalenost adresniho bodu k verejnemu kontejneru: "
+    f"{prumer_m:.0f} metru."
+)
 print(f"Median vzdalenosti ke kontejneru: {median_m:.0f} metru.")
-print(f"Nejdelsi vzdalenost ke kontejnerum je z adresy '{max_adresa}' "
-      f"a to {max_m:.0f} metru.")
+print(
+    f"Nejdelsi vzdalenost ke kontejnerum je z adresy '{max_adresa}' "
+    f"a to {max_m:.0f} metru."
+)
 
 ukonceni = input("Stisknete klavesu Enter pro ukonceni programu. ")
 exit()
