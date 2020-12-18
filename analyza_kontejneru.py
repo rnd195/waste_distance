@@ -195,4 +195,3 @@ input(
     "\n"
     "Stisknete klavesu Enter pro ukonceni programu. "
 )
-exit()
