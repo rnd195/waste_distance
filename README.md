@@ -25,11 +25,11 @@ V repozitáři tohoto projektu lze naleznout dva malé soubory s body v okolí L
 
 Program vypíše počet načtených adresních bodů dané čtvrti, počet volně přístupných kontejnerů, průměrnou vzdálenost adresního bodu k nejbližšímu veřejnému kontejneru, medián této vzdálenosti a nakonec adresu nejvzdálenějšího bodu včetně příslušné hodnoty. 
 
-Všechny hodnoty jsou uváděny v metrech a pokud jeden z adresních bodů bude vzdálen od nejbližšího kontejneru více než 10 000 metrů, program se vypne.
+Všechny vzdálenosti jsou uváděny v metrech a pokud jeden z adresních bodů bude vzdálen od nejbližšího kontejneru více než 10 000 metrů, program se vypne.
 
 Program po výpisu výše zmíněných údajů vyzve uživatele, aby stiskl klávesu Enter pro vypnutí programu a pokud tak uživatel učiní, program se ukončí.
 
-Níže je možné vidět příkladný výstup pro čtvrť Staré Město a kompletní dataset pražských kontejnerů:
+Níže je možné vidět příkladný výstup pro čtvrť Staré Město a kompletní dataset pražských kontejnerů ze 17.12.2020:
 
 ```
 Nacteno 1633 adresnich bodu.

@@ -36,7 +36,7 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 # NACITANI DAT
 # Pokud soubor chybi nebo je vadny, vypni program
 try:
-    with open("stare_mesto.geojson", "r", encoding="UTF-8") as file:
+    with open("adresy.geojson", "r", encoding="UTF-8") as file:
         adresy = json.load(file)
 # ValueError zahrnuje JSONDecodeError
 except (FileNotFoundError, NameError, ValueError):
@@ -47,7 +47,7 @@ except (FileNotFoundError, NameError, ValueError):
 
 adresy_info = adresy["features"]
 
-# Pokud mam prazdny seznam adres, vypnu program
+# Pokud je soubor adres delky 0 (validni, ale prazdny), vypnu program
 if len(adresy_info) == 0:
     print("Soubor s adresami je prazdny. Program se ukonci.")
 
@@ -64,9 +64,11 @@ except (FileNotFoundError, NameError, ValueError):
 kont_info = kont["features"]
 
 
-# VYTVARENI SLOVNIKU
+# SLOVNIK VEREJNYCH KONTEJNERU
+
 # Vytvori se slovnik s unikatnim klicem ulice a cisla popisneho,
 # kde hodnoty daneho slovniku jsou souradnice.
+
 slov_kont = {}
 
 for i in range(len(kont_info)):
@@ -83,13 +85,16 @@ for i in range(len(kont_info)):
         slov_kont[kont_ulice_cp] = kont_souradnice
 
 
-# Pokud nejsou v souboru zadne volne kontejnery, vypni program
-# Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat)
+# Pokud nejsou v souboru zadne volne kontejnery, vypni program.
+# Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat).
 if len(slov_kont) == 0:
     print(
         "V souboru s kontejnery neni zadny volne pristupny. Program se ukonci"
     )
     exit()
+
+
+# SLOVNIK ADRESNICH BODU
 
 slov_adresy = {}
 
@@ -104,6 +109,7 @@ for j in range(len(adresy_info)):
     except KeyError:
         continue
 
+    # Prevod wgs souradnic na jtsk format
     adresa_jtsk = wgs2jtsk.transform(adresa_sirka, adresa_delka)
 
     adresa_ulice_cp = adresa_ulice + " " + adresa_cp
@@ -126,12 +132,12 @@ for (klic_adresy, hodnota_adresy) in slov_adresy.items():
         x_2 = hodnota_kont[0]
         y_2 = hodnota_kont[1]
 
-        # Pomoci Pythagorovy vety vypocti vzdalenost v metrech (prepona)
+        # Pomoci Pythagorovy vety vypocte vzdalenost v metrech (prepona)
         odvesna1 = abs(x_1 - x_2)
         odvesna2 = abs(y_1 - y_2)
         prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
 
-        # A vzniknlou vzdalenost pridej do seznamu
+        # A vzniknlou vzdalenost prida do seznamu, ve kterem pak hleda min
         docasny_seznam.append(prepona)
 
     min_vzdalenost = min(docasny_seznam)
@@ -157,6 +163,7 @@ median_m = median_slovnik(slov_adresy_minkont)
 
 max_m = max(slov_adresy_minkont.values())
 
+# K maximu priradit odpovidajici adresu
 for (klic, hodnota) in slov_adresy_minkont.items():
     if hodnota == max_m:
         max_adresa = klic
