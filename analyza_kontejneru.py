@@ -3,7 +3,7 @@ from math import sqrt
 from pyproj import CRS, Transformer
 from sys import exit
 
-# from statistics import mean, median  # na kontrolu
+# from statistics import mean, median  # na kontrolu prumeru a medianu
 
 
 def prumer_slovnik(slovnik):
@@ -98,6 +98,7 @@ for j in range(len(adresy_info)):
     try:
         adresa_cp = adresy_info[j]["properties"]["addr:housenumber"]
         adresa_ulice = adresy_info[j]["properties"]["addr:street"]
+        # Souradnice jsou prehozene v souboru s adresami
         adresa_sirka = adresy_info[j]["geometry"]["coordinates"][1]
         adresa_delka = adresy_info[j]["geometry"]["coordinates"][0]
     except KeyError:
