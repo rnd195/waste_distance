@@ -12,7 +12,9 @@ def vzdalenost_pythagoras(bod_x1, bod_x2, bod_y1, bod_y2):
     odvesna1 = abs(bod_x1 - bod_x2)
     odvesna2 = abs(bod_y1 - bod_y2)
 
-    return sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
+    prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
+
+    return prepona
 
 
 def prumer_slovnik(slovnik):
@@ -85,12 +87,12 @@ kont_info = kont["features"]
 
 slov_kont = {}
 
-for i in range(len(kont_info)):
+for kontejner in kont_info:
     # Osetreni chybejicich klicu
     try:
-        kont_ulice_cp = kont_info[i]["properties"]["STATIONNAME"]
-        kont_souradnice = kont_info[i]["geometry"]["coordinates"]
-        kont_pristup = kont_info[i]["properties"]["PRISTUP"]
+        kont_ulice_cp = kontejner["properties"]["STATIONNAME"]
+        kont_souradnice = kontejner["geometry"]["coordinates"]
+        kont_pristup = kontejner["properties"]["PRISTUP"]
     except KeyError:
         continue
 
@@ -113,13 +115,13 @@ if len(slov_kont) == 0:
 slov_adresy = {}
 
 # Vytvori slovnik adresnich bodu s prevedenymi jtsk souradnicemi
-for j in range(len(adresy_info)):
+for bod in adresy_info:
     try:
-        adresa_cp = adresy_info[j]["properties"]["addr:housenumber"]
-        adresa_ulice = adresy_info[j]["properties"]["addr:street"]
+        adresa_cp = bod["properties"]["addr:housenumber"]
+        adresa_ulice = bod["properties"]["addr:street"]
         # Souradnice jsou prehozene v souboru s adresami
-        adresa_sirka = adresy_info[j]["geometry"]["coordinates"][1]
-        adresa_delka = adresy_info[j]["geometry"]["coordinates"][0]
+        adresa_sirka = bod["geometry"]["coordinates"][1]
+        adresa_delka = bod["geometry"]["coordinates"][0]
     except KeyError:
         continue
 
@@ -134,10 +136,10 @@ for j in range(len(adresy_info)):
 
 slov_adresy_minkont = {}
 
-for (adresa, souradnice_adresa) in slov_adresy.items():
+for (adresa_bod, souradnice_bod) in slov_adresy.items():
     # Souradnice adresniho bodu
-    x_1 = souradnice_adresa[0]
-    y_1 = souradnice_adresa[1]
+    x_1 = souradnice_bod[0]
+    y_1 = souradnice_bod[1]
 
     docasny_seznam = []
 
@@ -161,7 +163,7 @@ for (adresa, souradnice_adresa) in slov_adresy.items():
         )
         exit()
 
-    slov_adresy_minkont[adresa] = min_vzdalenost
+    slov_adresy_minkont[adresa_bod] = min_vzdalenost
 
 
 # PRUMER, MEDIAN A MAXIMUM
