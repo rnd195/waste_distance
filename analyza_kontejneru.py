@@ -9,7 +9,7 @@ from pyproj import CRS, Transformer
 
 def nacitani_geojson(jmeno_souboru):
     """Nacte validni geojson soubor. Pokud soubor neexistuje, je chybny nebo
-    uzivatel nenacetl modul json, da vedet a vypne program.
+    uzivatel nenacetl modul json, da vedet a ukonci program.
     """
     try:
         with open(jmeno_souboru, "r", encoding="UTF-8") as file:
@@ -119,7 +119,6 @@ if vyrazene_kont > 0:
 
 
 # Pokud nejsou v souboru zadne volne kontejnery, vypni program.
-# Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat).
 if len(slov_kont) == 0:
     print(
         "V souboru s kontejnery neni zadny volne pristupny. Program skonci."
@@ -159,6 +158,7 @@ if vyrazene_body > 0:
 
 # HLEDANI NEJMENSI VZDALENOSTI PRO DANOU ADRESU
 
+# Slovnik, kde klicem je adresa a hodnotou vzdalenost nejblizsiho kontejneru
 slov_adresy_minkont = {}
 
 for (adresa_bod, souradnice_bod) in slov_adresy.items():
@@ -202,9 +202,9 @@ median_m = median_slovnik(slov_adresy_minkont)
 max_m = max(slov_adresy_minkont.values())
 
 # K maximu priradit odpovidajici adresu
-for (klic, hodnota) in slov_adresy_minkont.items():
-    if hodnota == max_m:
-        max_adresa = klic
+for (adresa, vzdalenost) in slov_adresy_minkont.items():
+    if vzdalenost == max_m:
+        max_adresa = adresa
 
 
 # FINALNI SOUHRN
@@ -217,7 +217,9 @@ print(
     "Prumerna vzdalenost adresniho bodu k verejnemu kontejneru: "
     f"{prumer_m:.0f} metru."
 )
+
 print(f"Median vzdalenosti ke kontejneru: {median_m:.0f} metru.")
+
 print(
     f"Nejdelsi vzdalenost ke kontejnerum je z adresy '{max_adresa}' "
     f"a to {max_m:.0f} metru."
