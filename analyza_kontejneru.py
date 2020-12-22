@@ -8,7 +8,9 @@ from pyproj import CRS, Transformer
 
 
 def nacitani_geojson(jmeno_souboru):
-    """Nacte validni geojson soubor. Pri spatnem vstupu vypne program."""
+    """Nacte validni geojson soubor. Pokud soubor neexistuje, je chybny nebo
+    uzivatel nenacetl modul json, da vedet a vypne program.
+    """
     try:
         with open(jmeno_souboru, "r", encoding="UTF-8") as file:
             soubor = json.load(file)
@@ -39,10 +41,10 @@ def nacitani_geojson(jmeno_souboru):
     return soubor
 
 
-def vzdalenost_pythagoras(bod_x1, bod_x2, bod_y1, bod_y2):
+def vzdalenost_pythagoras(bod1_x, bod2_x, bod1_y, bod2_y):
     """Vypocita vzdalenost dvou bodu podle Pythagorovy vety."""
-    odvesna1 = abs(bod_x1 - bod_x2)
-    odvesna2 = abs(bod_y1 - bod_y2)
+    odvesna1 = abs(bod1_x - bod2_x)
+    odvesna2 = abs(bod1_y - bod2_y)
 
     prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
 
@@ -82,8 +84,8 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 # Nastavi pracovni adresar na filepath
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-adresy_info = nacitani_geojson("adresy.geojson")["features"]
-kont_info = nacitani_geojson("kontejnery.geojson")["features"]
+adresy_info = nacitani_geojson("data/stare_mesto.geojson")["features"]
+kont_info = nacitani_geojson("data/kontejnery.geojson")["features"]
 
 
 # SLOVNIK VEREJNYCH KONTEJNERU
