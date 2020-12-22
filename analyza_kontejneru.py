@@ -94,7 +94,7 @@ kont_info = nacitani_geojson("kontejnery.geojson")["features"]
 # kde hodnoty daneho slovniku jsou souradnice.
 
 slov_kont = {}
-# Osetreni chybejicich klicu
+# Pocitadlo chybejicich klicu - chybi-li klic, pricte 1 a pozdeji upozorni
 vyrazene_kont = 0
 
 for kontejner in kont_info:
@@ -102,7 +102,6 @@ for kontejner in kont_info:
         kont_ulice_cp = kontejner["properties"]["STATIONNAME"]
         kont_souradnice = kontejner["geometry"]["coordinates"]
         kont_pristup = kontejner["properties"]["PRISTUP"]
-    # Zapise, ze chybel klic a pozdeji pripadne nahlasi
     except KeyError:
         vyrazene_kont += 1
         continue
