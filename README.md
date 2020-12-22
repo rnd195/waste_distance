@@ -17,7 +17,7 @@ Dále je potřeba mít soubor `kontejnery.geojson`, ve kterém by měly být zah
 - atribut `STATIONNAME` pro identifikaci místa 
 - a atribut `PRISTUP` pro zjištění přístupnosti kontejneru.
 
-V repozitáři tohoto projektu lze naleznout dva malé soubory s body v okolí Letňan – adresy byly vygenerované na stránce [Overpass Turbo](http://overpass-turbo.eu/s/119J) a souřadnice kontejnerů stažené z [pražského Geoportálu](https://www.geoportalpraha.cz/cs/data/otevrena-data/8726EF0E-0834-463B-9E5F-FE09E62D73FB). Tyto soubory by měly sloužit pouze k testovacím účelům a také pro představu, jak by příslušná data měla vypadat. Obsahují totiž nesprávné údaje, pomocí kterých je demonstrována schopnost zachytit tyto případy.
+V repozitáři tohoto projektu lze naleznout dva malé soubory s body v okolí Letňan – adresy byly vygenerované na stránce [Overpass Turbo](http://overpass-turbo.eu/s/119J) a souřadnice kontejnerů stažené z [pražského Geoportálu](https://www.geoportalpraha.cz/cs/data/otevrena-data/8726EF0E-0834-463B-9E5F-FE09E62D73FB). Tyto soubory by měly sloužit pouze k testovacím účelům a také pro představu, jak by příslušná data měla vypadat. Obsahují totiž nesprávné údaje, pomocí kterých je demonstrována schopnost zachytit tyto chyby.
 
 
 
