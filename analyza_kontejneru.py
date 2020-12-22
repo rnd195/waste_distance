@@ -84,8 +84,8 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 # Nastavi pracovni adresar na filepath
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-adresy_info = nacitani_geojson("data/stare_mesto.geojson")["features"]
-kont_info = nacitani_geojson("data/kontejnery.geojson")["features"]
+adresy_info = nacitani_geojson("adresy.geojson")["features"]
+kont_info = nacitani_geojson("kontejnery.geojson")["features"]
 
 
 # SLOVNIK VEREJNYCH KONTEJNERU
