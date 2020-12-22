@@ -12,11 +12,20 @@ def nacitani_geojson(jmeno_souboru):
     try:
         with open(jmeno_souboru, "r", encoding="UTF-8") as file:
             soubor = json.load(file)
+    except FileNotFoundError:
+        print(f"Soubor {jmeno_souboru} neexistuje.")
+        exit()
     # ValueError zahrnuje JSONDecodeError
-    except (FileNotFoundError, NameError, ValueError):
+    except ValueError as err:
         print(
-            f"Soubor {jmeno_souboru} neexistuje nebo je chybny. "
-            "Program se ukonci."
+            f"Soubor {jmeno_souboru} je chybny.\n",
+            err
+        )
+        exit()
+    except NameError as err:
+        print(
+            "Soubor nebylo mozne nacist. Importovali jste modul json?\n",
+            err
         )
         exit()
 
