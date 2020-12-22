@@ -7,6 +7,14 @@ from pyproj import CRS, Transformer
 # from statistics import mean, median  # na kontrolu prumeru a medianu
 
 
+def vzdalenost_pythagoras(bod_x1, bod_x2, bod_y1, bod_y2):
+    """Vypocita vzdalenost dvou bodu podle Pythagorovy vety."""
+    odvesna1 = abs(bod_x1 - bod_x2)
+    odvesna2 = abs(bod_y1 - bod_y2)
+
+    return sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
+
+
 def prumer_slovnik(slovnik):
     """Vypocita prumer hodnot jednoducheho slovniku."""
     prumer = sum(slovnik.values()) / len(slovnik)
@@ -126,25 +134,22 @@ for j in range(len(adresy_info)):
 
 slov_adresy_minkont = {}
 
-for (klic_adresy, hodnota_adresy) in slov_adresy.items():
+for (adresa, souradnice_adresa) in slov_adresy.items():
     # Souradnice adresniho bodu
-    x_1 = hodnota_adresy[0]
-    y_1 = hodnota_adresy[1]
+    x_1 = souradnice_adresa[0]
+    y_1 = souradnice_adresa[1]
 
     docasny_seznam = []
 
-    for hodnota_kont in slov_kont.values():
+    for adresa_kont in slov_kont.values():
         # Souradnice kontejneru
-        x_2 = hodnota_kont[0]
-        y_2 = hodnota_kont[1]
+        x_2 = adresa_kont[0]
+        y_2 = adresa_kont[1]
 
-        # Pomoci Pythagorovy vety vypocte vzdalenost v metrech (prepona)
-        odvesna1 = abs(x_1 - x_2)
-        odvesna2 = abs(y_1 - y_2)
-        prepona = sqrt((odvesna1 * odvesna1) + (odvesna2 * odvesna2))
+        vzdalenost = vzdalenost_pythagoras(x_1, x_2, y_1, y_2)
 
-        # A vzniknlou vzdalenost prida do seznamu, ve kterem pak hleda min
-        docasny_seznam.append(prepona)
+        # Vzniknlou vzdalenost prida do seznamu, ve kterem pak hleda min
+        docasny_seznam.append(vzdalenost)
 
     min_vzdalenost = min(docasny_seznam)
 
@@ -156,7 +161,7 @@ for (klic_adresy, hodnota_adresy) in slov_adresy.items():
         )
         exit()
 
-    slov_adresy_minkont[klic_adresy] = min_vzdalenost
+    slov_adresy_minkont[adresa] = min_vzdalenost
 
 
 # PRUMER, MEDIAN A MAXIMUM
@@ -189,9 +194,4 @@ print(f"Median vzdalenosti ke kontejneru: {median_m:.0f} metru.")
 print(
     f"Nejdelsi vzdalenost ke kontejnerum je z adresy '{max_adresa}' "
     f"a to {max_m:.0f} metru."
-)
-
-input(
-    "\n"
-    "Stisknete klavesu Enter pro ukonceni programu. "
 )
