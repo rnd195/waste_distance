@@ -7,6 +7,29 @@ from pyproj import CRS, Transformer
 # from statistics import mean, median  # na kontrolu prumeru a medianu
 
 
+def nacitani_geojson(jmeno_souboru):
+    """Nacte validni geojson soubor. Pri spatnem vstupu vypne program."""
+    try:
+        with open(jmeno_souboru, "r", encoding="UTF-8") as file:
+            soubor = json.load(file)
+    # ValueError zahrnuje JSONDecodeError
+    except (FileNotFoundError, NameError, ValueError):
+        print(
+            f"Soubor {jmeno_souboru} neexistuje nebo je chybny. "
+            "Program se ukonci."
+        )
+        exit()
+
+    if len(jmeno_souboru) == 0:
+        print(
+            "Soubor je prazdny. "
+            "Zkontrolujte, jestli nacitate spravny soubor."
+        )
+        exit()
+
+    return soubor
+
+
 def vzdalenost_pythagoras(bod_x1, bod_x2, bod_y1, bod_y2):
     """Vypocita vzdalenost dvou bodu podle Pythagorovy vety."""
     odvesna1 = abs(bod_x1 - bod_x2)
@@ -50,34 +73,8 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 # Nastavi pracovni adresar na filepath
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-# Pokud soubor chybi nebo je vadny, vypni program
-try:
-    with open("adresy.geojson", "r", encoding="UTF-8") as file:
-        adresy = json.load(file)
-# ValueError zahrnuje JSONDecodeError
-except (FileNotFoundError, NameError, ValueError):
-    print(
-        "Soubor adresy.geojson neexistuje nebo je chybny. Program se ukonci."
-    )
-    exit()
-
-adresy_info = adresy["features"]
-
-# Pokud je soubor adres delky 0 (validni, ale prazdny), vypnu program
-if len(adresy_info) == 0:
-    print("Soubor s adresami je prazdny. Program se ukonci.")
-
-try:
-    with open("kontejnery.geojson", "r", encoding="UTF-8") as file:
-        kont = json.load(file)
-except (FileNotFoundError, NameError, ValueError):
-    print(
-        "Soubor kontejnery.geojson neexistuje nebo je chybny. "
-        "Program se ukonci."
-    )
-    exit()
-
-kont_info = kont["features"]
+adresy_info = nacitani_geojson("adresy.geojson")["features"]
+kont_info = nacitani_geojson("kontejnery.geojson")["features"]
 
 
 # SLOVNIK VEREJNYCH KONTEJNERU
@@ -86,26 +83,35 @@ kont_info = kont["features"]
 # kde hodnoty daneho slovniku jsou souradnice.
 
 slov_kont = {}
+# Osetreni chybejicich klicu
+vyrazene_kont = 0
 
 for kontejner in kont_info:
-    # Osetreni chybejicich klicu
     try:
         kont_ulice_cp = kontejner["properties"]["STATIONNAME"]
         kont_souradnice = kontejner["geometry"]["coordinates"]
         kont_pristup = kontejner["properties"]["PRISTUP"]
+    # Zapise, ze chybel klic a pozdeji pripadne nahlasi
     except KeyError:
+        vyrazene_kont += 1
         continue
 
     # Zapisuje do slovniku pouze volne pristupne kontejnery
     if kont_pristup == "volně":
         slov_kont[kont_ulice_cp] = kont_souradnice
 
+if vyrazene_kont > 0:
+    print(
+        f"Upozorneni: bylo vyrazeno {vyrazene_kont} kontejneru kvuli "
+        "chybejicimu klici."
+    )
+
 
 # Pokud nejsou v souboru zadne volne kontejnery, vypni program.
 # Zde se zachyti i pripadny prazdny geojson s kontejnery (netreba duplikovat).
 if len(slov_kont) == 0:
     print(
-        "V souboru s kontejnery neni zadny volne pristupny. Program se ukonci"
+        "V souboru s kontejnery neni zadny volne pristupny. Program skonci."
     )
     exit()
 
@@ -113,6 +119,7 @@ if len(slov_kont) == 0:
 # SLOVNIK ADRESNICH BODU
 
 slov_adresy = {}
+vyrazene_body = 0
 
 # Vytvori slovnik adresnich bodu s prevedenymi jtsk souradnicemi
 for bod in adresy_info:
@@ -123,6 +130,7 @@ for bod in adresy_info:
         adresa_sirka = bod["geometry"]["coordinates"][1]
         adresa_delka = bod["geometry"]["coordinates"][0]
     except KeyError:
+        vyrazene_body += 1
         continue
 
     # Prevod wgs souradnic na jtsk format
@@ -130,6 +138,12 @@ for bod in adresy_info:
 
     adresa_ulice_cp = adresa_ulice + " " + adresa_cp
     slov_adresy[adresa_ulice_cp] = adresa_jtsk
+
+if vyrazene_body > 0:
+    print(
+        f"Upozorneni: bylo vyrazeno {vyrazene_body} adresnich bodu kvuli "
+        "chybejicimu klici."
+    )
 
 
 # HLEDANI NEJMENSI VZDALENOSTI PRO DANOU ADRESU

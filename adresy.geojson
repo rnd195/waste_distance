@@ -8,7 +8,6 @@
       "type": "Feature",
       "properties": {
         "@id": "node/130237907",
-        "addr:housenumber": "454",
         "addr:street": "Místecká",
         "amenity": "pharmacy",
         "contact:email": "lekbellis@tiscali.cz",
@@ -49,7 +48,6 @@
       "type": "Feature",
       "properties": {
         "@id": "node/282739481",
-        "addr:housenumber": "644",
         "addr:postcode": "19900",
         "addr:street": "Ostravská",
         "created_by": "Potlatch 0.10b",
@@ -62,11 +60,7 @@
         "website": "https://pneufara.cz/"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5169419,
-          50.1395289
-        ]
+        "type": "Point"
       },
       "id": "node/282739481"
     },

@@ -11,8 +11,8 @@
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -744194.7600242086, -1044533.2999799959 ]
+				"type" : "Point"
+				
 			},
 			"properties" : {
 				"OBJECTID" : 364,
@@ -84,15 +84,14 @@
 				"STATIONNUMBER" : "0002/-508",
 				"STATIONNAME" : "Sokolská 1804/28",
 				"CITYDISTRICTRUIANCODE" : 500089,
-				"CITYDISTRICT" : "Praha 2",
-				"PRISTUP" : "obyvatelům domu"
+				"CITYDISTRICT" : "Praha 2"
+				
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ -735984.1752759032, -1038947.3758995943 ]
+				"type" : "Point"
 			},
 			"properties" : {
 				"OBJECTID" : 369,
