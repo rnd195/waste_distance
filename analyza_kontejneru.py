@@ -24,10 +24,9 @@ def nacitani_geojson(jmeno_souboru):
             err
         )
         exit()
-    except PermissionError as err:
+    except PermissionError:
         print(
             f"Program nema pristup k {jmeno_souboru}.\n",
-            err
         )
         exit()
 
