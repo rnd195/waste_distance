@@ -9,7 +9,7 @@ from pyproj import CRS, Transformer
 
 def nacitani_geojson(jmeno_souboru):
     """Nacte validni geojson soubor. Pokud soubor neexistuje, je chybny nebo
-    uzivatel nenacetl modul json, da vedet a ukonci program.
+    neni pristupny, da vedet a ukonci program.
     """
     try:
         with open(jmeno_souboru, "r", encoding="UTF-8") as file:
@@ -24,9 +24,9 @@ def nacitani_geojson(jmeno_souboru):
             err
         )
         exit()
-    except NameError as err:
+    except PermissionError as err:
         print(
-            "Soubor nebylo mozne nacist. Importovali jste modul json?\n",
+            f"Program nema pristup k {jmeno_souboru}.\n",
             err
         )
         exit()
@@ -165,25 +165,26 @@ for (adresa_bod, souradnice_bod) in slov_adresy.items():
     x_1 = souradnice_bod[0]
     y_1 = souradnice_bod[1]
 
-    docasny_seznam = []
+    # Dummy minimalni hodnota na porovnavani vzdalenosti v nasledujicim cyklu
+    min_vzdalenost = 999999
 
-    for adresa_kont in slov_kont.values():
+    for souradnice_kont in slov_kont.values():
         # Souradnice kontejneru
-        x_2 = adresa_kont[0]
-        y_2 = adresa_kont[1]
+        x_2 = souradnice_kont[0]
+        y_2 = souradnice_kont[1]
 
         vzdalenost = vzdalenost_pythagoras(x_1, x_2, y_1, y_2)
 
-        # Vzniknlou vzdalenost prida do seznamu, ve kterem pak hleda min
-        docasny_seznam.append(vzdalenost)
+        # Porovnava aktualni hodnoty proti nejnizsi (zatim) nalezene
+        if vzdalenost < min_vzdalenost:
+            min_vzdalenost = vzdalenost
 
-    min_vzdalenost = min(docasny_seznam)
-
-    # Osetreni 10km vzdaleneho kontejneru
+    # Osetreni 10+km vzdaleneho kontejneru
     if min_vzdalenost > 10000:
         print(
-            "Kontejner je prilis daleko. Mate spravna data? "
-            "Program se ukonci."
+            "Nektery z kontejneru je vzdalen vice nez 10 km od nejblizsiho "
+            "adresniho bodu.\n"
+            "Mate spravna data? Program se ukonci."
         )
         exit()
 
