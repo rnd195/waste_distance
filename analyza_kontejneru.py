@@ -89,8 +89,10 @@ kont_info = nacitani_geojson("kontejnery.geojson")["features"]
 
 # SLOVNIK VEREJNYCH KONTEJNERU
 
-# Vytvori se slovnik s unikatnim klicem ulice a cisla popisneho,
-# kde hodnoty daneho slovniku jsou souradnice.
+# Vytvori se slovnik s unikatnim klicem ulice a cisla popisneho, kde hodnoty
+# daneho slovniku jsou souradnice. V pripade duplicitnich adres se z podstaty
+# slovniku bere v potaz jen 1 adresa. Proto se muze pocet prvku v
+# adresy_info/kont_info lisit od poctu prvku v slov_kont/slov_adresy.
 
 slov_kont = {}
 # Pocitadlo chybejicich klicu - chybi-li klic, pricte 1 a pozdeji upozorni
@@ -208,7 +210,7 @@ for (adresa, vzdalenost) in slov_adresy_minkont.items():
 
 # FINALNI SOUHRN
 
-print(f"Nacteno {len(slov_adresy)} adresnich bodu.")
+print(f"Nacteno {len(slov_adresy)} unikatnich adresnich bodu.")
 print(f"Nacteno {len(slov_kont)} kontejneru na trideny odpad.")
 
 print(

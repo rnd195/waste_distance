@@ -23,7 +23,7 @@ V repozitáři tohoto projektu lze naleznout dva malé soubory s body v okolí L
 
 ## Výstup
 
-Program vypíše počet načtených adresních bodů dané čtvrti, počet volně přístupných kontejnerů, průměrnou vzdálenost adresního bodu k nejbližšímu veřejnému kontejneru, medián této vzdálenosti a nakonec adresu nejvzdálenějšího bodu včetně příslušné hodnoty.
+Program vypíše počet načtených unikátních adresních bodů dané čtvrti, počet volně přístupných kontejnerů, průměrnou vzdálenost adresního bodu k nejbližšímu veřejnému kontejneru, medián této vzdálenosti a nakonec adresu nejvzdálenějšího bodu včetně příslušné hodnoty.
 
 Všechny vzdálenosti jsou uváděny v metrech a pokud jeden z adresních bodů bude vzdálen od nejbližšího kontejneru více než 10 000 metrů, program tuto skutečnost nahlásí a ukončí se.
 
@@ -31,7 +31,7 @@ Níže je možné vidět příkladný výstup pro čtvrť Staré Město a komple
 
 ```
 Upozorneni: bylo vyrazeno 2 adresnich bodu kvuli chybejicimu klici.
-Nacteno 1633 adresnich bodu.
+Nacteno 1633 unikatnich adresnich bodu.
 Nacteno 3441 kontejneru na trideny odpad.
 
 Prumerna vzdalenost adresniho bodu k verejnemu kontejneru: 136 metru.
