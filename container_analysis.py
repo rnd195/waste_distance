@@ -1,5 +1,6 @@
-import json
-import os
+from os import chdir
+from os.path import dirname, abspath
+from json import load
 from sys import exit
 from math import sqrt
 from pyproj import CRS, Transformer
@@ -11,7 +12,7 @@ def load_geojson(file_name):
     """
     try:
         with open(file_name, "r", encoding="UTF-8") as file:
-            file = json.load(file)
+            file = load(file)
     except FileNotFoundError:
         print(f"The file {file_name} does not exist.")
         exit()
@@ -194,7 +195,7 @@ wgs2jtsk = Transformer.from_crs(crs_wgs, crs_jtsk)
 # LOADING DATA
 
 # Set working directory to filepath
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+chdir(dirname(abspath(__file__)))
 
 cont_info = load_geojson("containers.geojson")["features"]
 addr_info = load_geojson("address.geojson")["features"]
@@ -237,6 +238,6 @@ print(
 print(f"Median distance to a container: {median_m:.0f} meters.")
 
 print(
-    f"The max distance to a container is from the address '{max_addr}' "
-    f"({max_m:.0f} meters)."
+    f"The longest distance to a public container, {max_m:.0f} meters, is from "
+    f"the address '{max_addr}'."
 )

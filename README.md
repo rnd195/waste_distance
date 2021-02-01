@@ -22,18 +22,18 @@ In the repository of this project you may find the `address.geojson` file, which
 
 ## Output
 
-The program lists the number of loaded unique address points of the given district, the number of freely accessible containers, the average distance of the address point to the nearest public container, the median of this distance and finally the address of the furthermost point with the corresponding distance.
+The program lists the number of loaded unique address points of the given district, the number of freely accessible containers, the average distance of the address point to the nearest public container, the median of this distance, and finally, the address of the furthermost point with the corresponding distance.
 
 All distances are given in meters, and if one of the address points is more than 10,000 meters away from the nearest container, the program will let the user know and will stop. 
 
-You may see the output for the Old Town and a complete dataset of Prague containers below:
+Below, you may see the output for the Old Town and the complete dataset of Prague containers:
 
 ```
 Warning: 2 address points were discarded due to a missing key.
 Loaded 1633 unique address points.
-Loaded 3441 unique garbage containers coordinates.
+Loaded 3441 unique waste containers coordinates.
 
-Average distance to a freely accessible garbage container: 136 meters.
+Average distance to a freely accessible waste container: 136 meters.
 Median distance to a container: 129 meters.
-The max distance to a container is from the address 'Na příkopě 1096/19' (323 meters).
+The longest distance to a public container, 323 meters, is from the address 'Na příkopě 1096/19'.
 ```
