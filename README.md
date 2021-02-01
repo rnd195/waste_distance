@@ -31,7 +31,7 @@ Below, you may see the output for the Old Town file and the complete dataset of 
 ```
 Warning: 2 address points were discarded due to a missing key.
 Loaded 1633 unique address points.
-Loaded 3441 unique waste containers coordinates.
+Loaded 3441 unique waste container coordinates.
 
 Average distance to a freely accessible waste container: 136 meters.
 Median distance to a container: 129 meters.

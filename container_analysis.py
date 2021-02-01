@@ -130,7 +130,7 @@ def min_dist_address_cont(dict_containers, dict_addresses):
     waste container using the dist_pythag function.
     """
 
-    dict_addresses_minkont = {}
+    dict_addresses_mincont = {}
 
     for (address_pt, coords_pt) in dict_addresses.items():
         # Address point coordinates
@@ -160,9 +160,9 @@ def min_dist_address_cont(dict_containers, dict_addresses):
             )
             exit()
 
-        dict_addresses_minkont[address_pt] = min_distance
+        dict_addresses_mincont[address_pt] = min_distance
 
-    return dict_addresses_minkont
+    return dict_addresses_mincont
 
 
 def mean_dict(dictionary):
@@ -227,7 +227,7 @@ for (addr, dist) in dict_addr_mindist.items():
 # SUMMARY
 
 print(f"Loaded {len(dict_addr)} unique address points.")
-print(f"Loaded {len(dict_cont)} unique waste containers coordinates.")
+print(f"Loaded {len(dict_cont)} unique waste container coordinates.")
 
 print(
     "\n"
