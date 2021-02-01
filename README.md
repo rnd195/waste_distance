@@ -26,7 +26,7 @@ The program lists the number of loaded unique address points of the given distri
 
 All distances are given in meters, and if one of the address points is more than 10,000 meters away from the nearest container, the program will let the user know and will stop. 
 
-Below, you may see the output for the Old Town and the complete dataset of Prague containers:
+Below, you may see the output for the Old Town file and the complete dataset of Prague containers:
 
 ```
 Warning: 2 address points were discarded due to a missing key.
