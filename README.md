@@ -1,41 +1,39 @@
-# Dokumentace k úkolu 2
+# Distance to waste containers
 
-Cílem tohoto programu je zjistit dostupnost kontejnerů na tříděný odpad v dané čtvrti, a to tak, že se vypočítá průměr, medián a maximum vzdálenosti jednotlivých adresních bodů k nejbližšímu veřejně přístupnému kontejneru.
-
-
-
-## Vstup
-
-Program pracuje se souborem `adresy.geojson`, který by měl obsahovat:
-
-- adresní body dané čtvrti ve formátu WGS-84,
-- klíče `addr:street` a `addr:housenumber` pro identifikaci jednotlivých adres.
-
-Dále je potřeba mít soubor `kontejnery.geojson`, ve kterém by měly být zahrnuty:
-
-- souřadnice kontejnerů na tříděný odpad ve formátu S-JTSK,
-- atribut `STATIONNAME` pro identifikaci místa 
-- a atribut `PRISTUP` pro zjištění přístupnosti kontejneru.
-
-V repozitáři tohoto projektu lze naleznout dva malé soubory s body v okolí Letňan – adresy byly vygenerované na stránce [Overpass Turbo](http://overpass-turbo.eu/s/119J) a souřadnice kontejnerů stažené z [pražského Geoportálu](https://www.geoportalpraha.cz/cs/data/otevrena-data/8726EF0E-0834-463B-9E5F-FE09E62D73FB). Tyto soubory by měly sloužit pouze k testovacím účelům a také pro představu, jak by příslušná data měla vypadat. Obsahují totiž nesprávné údaje, pomocí kterých je demonstrována schopnost zachytit tyto chyby.
+The aim of this program is to determine the availability of containers for sorted waste in a given district by calculating the average, median and maximum distance of individual address points to the nearest publicly accessible container. 
 
 
 
-## Výstup
+## Input
 
-Program vypíše počet načtených unikátních adresních bodů dané čtvrti, počet volně přístupných kontejnerů, průměrnou vzdálenost adresního bodu k nejbližšímu veřejnému kontejneru, medián této vzdálenosti a nakonec adresu nejvzdálenějšího bodu včetně příslušné hodnoty.
+The program works with `.geojson` files, which should include:
 
-Všechny vzdálenosti jsou uváděny v metrech a pokud jeden z adresních bodů bude vzdálen od nejbližšího kontejneru více než 10 000 metrů, program tuto skutečnost nahlásí a ukončí se.
+- address points of the given district in WGS-84 format, 
+- `addr:street` a `addr:housenumber` keys to identify individual addresses.
 
-Níže je možné vidět příkladný výstup pro čtvrť Staré Město a kompletní dataset pražských kontejnerů ze 17.12.2020:
+Next, the file `containers.geojson` should include: 
+
+- coordinates of containers for sorted waste in [S-JTSK format](https://epsg.io/5514),
+- `STATIONNAME` attribute to identify the place 
+- and the `PRISTUP` attribute to determine the access to the container.
+
+In the repository of this project you may find the `address.geojson` file, which includes addresses from the Old Town district in Prague, Czech Republic. These were generated using [Overpass Turbo](http://overpass-turbo.eu/s/119J). Furthermore, the `containers.geojson` file contains data from the [Prague Geoportal](https://www.geoportalpraha.cz/cs/data/otevrena-data/8726EF0E-0834-463B-9E5F-FE09E62D73FB).
+
+
+## Output
+
+The program lists the number of loaded unique address points of the given district, the number of freely accessible containers, the average distance of the address point to the nearest public container, the median of this distance and finally the address of the furthermost point with the corresponding distance.
+
+All distances are given in meters, and if one of the address points is more than 10,000 meters away from the nearest container, the program will let the user know and will stop. 
+
+You may see the output for the Old Town and a complete dataset of Prague containers below:
 
 ```
-Upozorneni: bylo vyrazeno 2 adresnich bodu kvuli chybejicimu klici.
-Nacteno 1633 unikatnich adresnich bodu.
-Nacteno 3441 kontejneru na trideny odpad.
+Warning: 2 address points were discarded due to a missing key.
+Loaded 1633 unique address points.
+Loaded 3441 unique garbage containers coordinates.
 
-Prumerna vzdalenost adresniho bodu k verejnemu kontejneru: 136 metru.
-Median vzdalenosti ke kontejneru: 129 metru.
-Nejdelsi vzdalenost ke kontejnerum je z adresy 'Na příkopě 1096/19' a to 323 metru.
+Average distance to a freely accessible garbage container: 136 meters.
+Median distance to a container: 129 meters.
+The max distance to a container is from the address 'Na příkopě 1096/19' (323 meters).
 ```
-
