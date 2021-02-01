@@ -1,6 +1,6 @@
 # Distance to waste containers
 
-The aim of this program is to determine the availability of containers for sorted waste in a given district by calculating the average, median and maximum distance of individual address points to the nearest publicly accessible container. 
+The aim of this program is to determine the availability of containers in a given district by calculating the average, median and maximum distance of individual address points to the nearest publicly accessible container. 
 
 
 
