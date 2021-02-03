@@ -58,7 +58,7 @@ def dict_pub_containers(containers_info):
             missing_cont += 1
             continue
 
-        # "volně" means publically/freely available
+        # "volně" means publicly/freely available
         if cont_access == "volně":
             dict_containers[cont_street_num] = cont_coord
 
@@ -68,7 +68,7 @@ def dict_pub_containers(containers_info):
             "missing key."
         )
 
-    # If there are no publically accessible containers in the dataset - stop
+    # If there are no publicly accessible containers in the dataset - stop
     if len(dict_containers) == 0:
         print(
             "There are no freely accessible containers in the dataset. "
